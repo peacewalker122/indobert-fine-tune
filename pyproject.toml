@@ -4,12 +4,20 @@ version = "0.1.0"
 description = "IndoBERT intent classification + slot filling for Indonesian cell-network commands"
 requires-python = ">=3.10"
 dependencies = [
-    "torch",
+    "torch==2.13.0",
     "transformers",
     "datasets",
     "scikit-learn",
     "accelerate",
 ]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
 
 [dependency-groups]
 dev = ["pytest"]
