@@ -1,0 +1,19 @@
+[project]
+name = "indobert-command-model"
+version = "0.1.0"
+description = "IndoBERT intent classification + slot filling for Indonesian cell-network commands"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers",
+    "datasets",
+    "scikit-learn",
+    "accelerate",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

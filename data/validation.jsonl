@@ -1,0 +1,1000 @@
+{"tokens": ["saya", "mau", "lihat", "25", "sel", "dengan", "ul", "throughput", "terburuk", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "jumlah", "cell", "di", "Balikpapan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "100", "cell", "dengan", "drop", "call", "paling", "tinggi", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "25", "site", "dengan", "erlang", "terendah", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "100", "site", "dengan", "latency", "terbaik", "di", "wilayah", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "20", "cell", "dengan", "handover", "success", "tertinggi", "region", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "sel", "BPN2499", "untuk", "metric", "detractor"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC"]}
+{"tokens": ["detail", "untuk", "cell", "BJM2771", "di", "Kandangan"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "cell", "packet", "loss", "paling", "tinggi", "region", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "15", "sel", "dengan", "dl", "throughput", "tertinggi", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "jitter", "buruk", "di", "Banjarmasin"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "5", "dengan", "downtime", "terburuk", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "SMR8672", "metric", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["munculkan", "15", "cell", "payload", "terbaik", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "JKT5273"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "5", "site", "dengan", "prb", "terburuk", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "cell", "BPN7493"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["coba", "tampilkan", "20", "site", "dengan", "rsrq", "tertinggi", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "5", "sel", "dengan", "cell", "availability", "paling", "rendah", "di", "area", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "site", "di", "Tanjung"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "cell", "BPN8114"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tunjukkan", "10", "cell", "dengan", "payload", "terendah", "di", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "cell", "dengan", "users", "buruk", "di", "Rantau"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "15", "site", "dengan", "ul", "throughput", "terbaik", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MTP4655"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "daftar", "3", "cell", "throughput", "tertinggi", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "3", "site", "dengan", "dl", "throughput", "yang", "paling", "rendah", "pada", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "100", "cell", "dengan", "erlang", "terburuk", "pada", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "50", "cell", "dl", "throughput", "terendah", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "5", "cell", "dengan", "drop", "call", "yang", "tertinggi", "di", "area", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "10", "sel", "dengan", "sinr", "yang", "terendah", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "10", "site", "dengan", "drop", "call", "terendah", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "dengan", "drop", "call", "yang", "terburuk", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "5", "sel", "dengan", "handover", "success", "terburuk", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "cell", "dengan", "traffic", "terburuk", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "cell", "dengan", "rsrq", "terbaik", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "site", "BDG3891"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "10", "sel", "dengan", "cssr", "terbaik", "di", "area", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MKS8395", "metric", "dl", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "detractor", "buruk", "di", "Pekanbaru"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "3", "site", "ul", "throughput", "paling", "rendah", "di", "wilayah", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "100", "cell", "dengan", "prb", "utilization", "paling", "tinggi", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "3", "sel", "dengan", "latency", "terbaik", "region", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "20", "site", "dengan", "dl", "throughput", "yang", "tertinggi", "pada", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "SMR9521", "metric", "cell", "availability"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["cek", "50", "site", "dengan", "prb", "utilization", "terburuk", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "3", "sel", "dengan", "cssr", "paling", "tinggi", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "100", "site", "dengan", "detractor", "paling", "rendah", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "25", "cell", "dengan", "throughput", "terburuk", "region", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "5", "sel", "dengan", "packet", "loss", "terendah", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "MTP2635"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "100", "latency", "paling", "tinggi", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "10", "dengan", "jitter", "terburuk", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "15", "sel", "average", "throughput", "terbaik", "di", "area", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "site", "ul", "throughput", "terburuk", "di", "wilayah", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "15", "site", "dengan", "ul", "throughput", "yang", "terbaik", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "3", "site", "cell", "availability", "yang", "tertinggi", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "25", "sel", "dengan", "jitter", "tertinggi", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "20", "site", "downtime", "paling", "tinggi", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "50", "site", "dengan", "prb", "utilization", "terburuk", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "SMR9276", "di", "Banjarmasin"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "rsrq", "buruk", "di", "Padang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "site", "di", "Kotabaru"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "10", "cell", "dengan", "users", "terendah", "di", "wilayah", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "5", "cell", "dengan", "users", "paling", "rendah", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "25", "cell", "dengan", "prb", "paling", "rendah", "di", "area", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MTP0994"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["coba", "tampilkan", "7", "sel", "dengan", "cell", "availability", "terendah", "di", "wilayah", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "5", "site", "dengan", "drop", "call", "terburuk", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "15", "cell", "dengan", "payload", "paling", "rendah", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "50", "site", "dengan", "downtime", "yang", "terburuk", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SBY7170"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "daftar", "5", "site", "ul", "throughput", "terburuk", "di", "area", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "50", "site", "packet", "loss", "tertinggi", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "25", "sel", "dengan", "mos", "terendah", "pada", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "3", "site", "dengan", "traffic", "terbaik", "di", "area", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MDN1431"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["munculkan", "3", "sel", "dengan", "cssr", "yang", "paling", "rendah", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "15", "sel", "dengan", "detractor", "paling", "rendah", "di", "area", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "15", "sel", "dengan", "latency", "terbaik", "di", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "5", "cell", "dengan", "downtime", "terendah", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "sel", "dengan", "packet", "loss", "terbaik", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "dengan", "payload", "tertinggi", "pada", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "50", "site", "payload", "yang", "tertinggi", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "50", "availability", "yang", "terburuk", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BDG8747", "di", "Medan", "metric", "latency"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC"]}
+{"tokens": ["lihat", "site", "SMR2178", "untuk", "metric", "packet", "loss"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["cek", "jumlah", "sel", "di", "Semarang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "100", "sel", "dengan", "ul", "throughput", "terendah", "di", "area", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "MDN3186"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "detail", "site", "PLM3227"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "50", "sel", "dengan", "handover", "success", "tertinggi", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BDG4723", "untuk", "metric", "average", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["cek", "25", "sel", "dengan", "users", "paling", "rendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "7", "sel", "mos", "yang", "paling", "rendah", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "5", "sel", "dengan", "erlang", "yang", "terburuk", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "7", "site", "dengan", "downtime", "terburuk", "di", "wilayah", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "50", "sel", "dengan", "cssr", "terendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "15", "site", "dengan", "ul", "throughput", "terburuk", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "25", "cell", "rsrp", "terbaik", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "cell", "dengan", "rsrq", "terburuk", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "10", "cell", "dengan", "availability", "terendah", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "20", "sel", "dengan", "erlang", "terbaik", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "10", "sel", "dengan", "users", "yang", "paling", "tinggi", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "15", "sel", "dengan", "packet", "loss", "terendah", "di", "area", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "20", "cell", "dengan", "prb", "utilization", "terburuk", "di", "area", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "3", "cell", "jitter", "terburuk", "di", "area", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "100", "cell", "dengan", "prb", "utilization", "paling", "tinggi", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "5", "site", "sinr", "paling", "tinggi", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "15", "cell", "dengan", "cssr", "terendah", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "BJB7227"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "packet", "loss", "buruk", "di", "Manado"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "erlang", "terendah", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "50", "sel", "dengan", "downtime", "paling", "tinggi", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "100", "site", "dengan", "payload", "yang", "terendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "25", "cell", "dengan", "availability", "terbaik", "di", "area", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "cell", "dengan", "cssr", "terendah", "di", "area", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "7", "cell", "drop", "call", "terburuk", "di", "area", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "cell", "availability", "buruk", "di", "Jakarta"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "cell", "di", "Bengkulu"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "100", "site", "dengan", "throughput", "yang", "paling", "rendah", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "15", "cell", "dengan", "payload", "terbaik", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MDN4183", "di", "Amuntai"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "100", "site", "dengan", "throughput", "paling", "rendah", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "7", "cell", "dengan", "jitter", "paling", "tinggi", "di", "area", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SBY2419", "di", "Surabaya", "untuk", "metric", "mos"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "O", "B-METRIC"]}
+{"tokens": ["tampilkan", "cell", "SBY0022", "di", "Solo"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["cek", "5", "site", "dengan", "prb", "utilization", "yang", "paling", "tinggi", "pada", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "25", "sel", "ul", "throughput", "paling", "rendah", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "3", "cell", "dengan", "throughput", "paling", "rendah", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "cell", "availability", "terbaik", "pada", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "prb", "utilization", "buruk", "di", "Amuntai"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "5", "cell", "dengan", "detractor", "paling", "rendah", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "5", "site", "erlang", "terendah", "pada", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "site", "dengan", "packet", "loss", "paling", "rendah", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "sel", "BDG8989"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["saya", "mau", "lihat", "10", "sel", "dengan", "payload", "paling", "rendah", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "BJB8935", "metric", "prb", "utilization"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["cek", "status", "cell", "JKT0679"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["munculkan", "20", "cell", "dengan", "availability", "yang", "tertinggi", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "15", "sel", "dengan", "downtime", "terburuk", "di", "wilayah", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BDG2526", "di", "Banjarbaru"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "7", "sel", "dengan", "jitter", "yang", "tertinggi", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "100", "site", "dengan", "prb", "utilization", "paling", "rendah", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "50", "cell", "dengan", "jitter", "terbaik", "di", "area", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "50", "site", "packet", "loss", "yang", "terendah", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "20", "sel", "dengan", "erlang", "yang", "terbaik", "di", "area", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "100", "site", "dengan", "downtime", "paling", "tinggi", "di", "area", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "5", "cell", "dengan", "rsrp", "yang", "terbaik", "pada", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "site", "BDO6384"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "25", "site", "dengan", "prb", "utilization", "paling", "tinggi", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "SBY2138"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "site", "BJB3668"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["coba", "tampilkan", "jumlah", "cell", "di", "Manado"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "20", "cell", "dengan", "dl", "throughput", "yang", "terburuk", "di", "wilayah", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "cell", "di", "Bogor"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "10", "cell", "dengan", "prb", "utilization", "yang", "terendah", "di", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "7", "cell", "dengan", "packet", "loss", "tertinggi", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "sel", "dengan", "rsrq", "terbaik", "di", "wilayah", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "15", "sel", "dengan", "detractor", "paling", "tinggi", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MTP6485"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "daftar", "7", "sel", "dengan", "sinr", "terburuk", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "BDO6814"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "7", "site", "downtime", "terendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "10", "cell", "dengan", "average", "throughput", "terendah", "di", "wilayah", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "site", "dengan", "prb", "utilization", "terbaik", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "25", "site", "dengan", "downtime", "paling", "rendah", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "3", "cell", "cssr", "terbaik", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "cell", "dengan", "ul", "throughput", "buruk", "di", "Padang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "20", "sel", "dengan", "throughput", "terbaik", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "25", "dengan", "users", "paling", "tinggi", "di", "area", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "20", "sel", "drop", "call", "yang", "tertinggi", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "15", "cell", "dengan", "availability", "tertinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "10", "site", "dengan", "sinr", "terbaik", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "20", "cell", "dengan", "downtime", "paling", "rendah", "di", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "latency", "buruk", "di", "Medan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "3", "site", "dengan", "detractor", "terbaik", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "7", "sel", "detractor", "paling", "tinggi", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "sel", "dengan", "prb", "utilization", "yang", "terburuk", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "sel", "MTP7167"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "10", "dengan", "traffic", "terbaik", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "site", "dengan", "jitter", "terendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MKS3323"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "daftar", "5", "dengan", "payload", "terbaik", "di", "area", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "sel", "SMR9558"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["saya", "mau", "lihat", "7", "sel", "dengan", "payload", "terendah", "di", "area", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "15", "sel", "dengan", "average", "throughput", "terburuk", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "7", "sel", "dengan", "packet", "loss", "paling", "rendah", "di", "area", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "cell", "JKT7693", "di", "Jambi"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "50", "sel", "dengan", "handover", "success", "terburuk", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "25", "cell", "dengan", "payload", "terendah", "di", "area", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "100", "dengan", "handover", "success", "paling", "rendah", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "15", "traffic", "tertinggi", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "100", "sel", "dengan", "downtime", "terendah", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "latency", "buruk", "di", "Jambi"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "7", "cell", "dengan", "latency", "terbaik", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "PLM9352"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "daftar", "50", "sel", "dengan", "dl", "throughput", "yang", "tertinggi", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "10", "site", "dengan", "erlang", "terbaik", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "sel", "dengan", "average", "throughput", "tertinggi", "pada", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "MTP0025", "di", "Makassar"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "50", "site", "dengan", "ul", "throughput", "paling", "rendah", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "BPN3643", "di", "Jambi"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "7", "sel", "users", "terburuk", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "15", "site", "dengan", "availability", "paling", "tinggi", "di", "wilayah", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "5", "sel", "dengan", "latency", "terburuk", "di", "wilayah", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "cell", "dengan", "latency", "terendah", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "sel", "dengan", "rsrq", "terburuk", "di", "wilayah", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "cell", "dengan", "cssr", "buruk", "di", "Kotabaru"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "25", "sel", "dengan", "erlang", "tertinggi", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "sel", "BDG7497"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "daftar", "5", "sel", "dengan", "availability", "terendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "jumlah", "site", "di", "Pontianak"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "sel", "dengan", "ul", "throughput", "yang", "tertinggi", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "3", "cell", "dengan", "mos", "terendah", "di", "area", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "20", "cell", "handover", "success", "yang", "terburuk", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "jumlah", "sel", "di", "Bengkulu"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "jumlah", "cell", "di", "Rantau"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "site", "dengan", "rsrp", "paling", "rendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "20", "sel", "dengan", "erlang", "tertinggi", "pada", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "3", "cell", "dengan", "rsrp", "tertinggi", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "3", "cell", "dengan", "dl", "throughput", "paling", "rendah", "di", "area", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "5", "site", "dengan", "payload", "tertinggi", "di", "wilayah", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "20", "cell", "dengan", "jitter", "tertinggi", "di", "area", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "traffic", "buruk", "di", "Kotabaru"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "100", "sel", "dengan", "traffic", "yang", "terendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "site", "availability", "tertinggi", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "sel", "di", "Tanjung"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "sel", "BJM8354", "untuk", "metric", "packet", "loss"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["mohon", "tampilkan", "25", "site", "dengan", "latency", "terendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MDN8222", "di", "Rantau"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "7", "cell", "traffic", "paling", "rendah", "di", "area", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "sel", "dengan", "latency", "terendah", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "5", "cell", "dengan", "erlang", "tertinggi", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "25", "site", "dengan", "prb", "paling", "tinggi", "di", "area", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "100", "throughput", "tertinggi", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "sel", "di", "Medan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "jumlah", "sel", "di", "Bengkulu"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BDG3687", "metric", "rsrq"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["berikan", "10", "site", "dengan", "erlang", "paling", "tinggi", "di", "area", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "10", "cell", "dengan", "drop", "call", "yang", "terbaik", "region", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "100", "rsrp", "yang", "terburuk", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "cell", "dengan", "cssr", "paling", "rendah", "pada", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "100", "sel", "dengan", "prb", "utilization", "yang", "terendah", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "7", "dengan", "average", "throughput", "paling", "tinggi", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MKS1041", "di", "Manado"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "20", "cell", "dengan", "payload", "tertinggi", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "5", "site", "dengan", "users", "paling", "rendah", "di", "wilayah", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "25", "site", "dengan", "users", "paling", "rendah", "pada", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "15", "cell", "dengan", "packet", "loss", "paling", "tinggi", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "jitter", "terburuk", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SMR9405"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "detail", "cell", "MKS0006"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "25", "site", "dengan", "traffic", "terbaik", "di", "area", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "50", "cell", "dengan", "mos", "terburuk", "di", "area", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "10", "site", "dengan", "drop", "call", "tertinggi", "di", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "5", "cell", "detractor", "terburuk", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "15", "cell", "dengan", "erlang", "terbaik", "di", "area", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "25", "sel", "dengan", "erlang", "yang", "tertinggi", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "jumlah", "site", "di", "Padang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "cell", "BJB9656", "metric", "sinr"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["cek", "15", "cell", "dengan", "latency", "tertinggi", "di", "area", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "MTP1124"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["ada", "berapa", "site", "di", "Tangerang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "20", "cell", "dengan", "downtime", "paling", "rendah", "di", "area", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "JKT4018", "di", "Jakarta", "metric", "average", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["tampilkan", "daftar", "50", "sel", "dengan", "traffic", "tertinggi", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "SMR2152", "di", "Kediri"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "10", "dengan", "average", "throughput", "terburuk", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "10", "cell", "dengan", "prb", "tertinggi", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "jumlah", "site", "di", "Martapura"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "10", "site", "rsrp", "tertinggi", "di", "wilayah", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "7", "cell", "dengan", "downtime", "terburuk", "pada", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "20", "site", "dengan", "latency", "paling", "tinggi", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "5", "cell", "dengan", "rsrp", "paling", "tinggi", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "15", "site", "dengan", "erlang", "terbaik", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "3", "site", "dl", "throughput", "yang", "paling", "tinggi", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "MTP6143"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "daftar", "15", "detractor", "terburuk", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "20", "site", "dengan", "handover", "success", "paling", "tinggi", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "100", "sel", "dengan", "average", "throughput", "terburuk", "di", "wilayah", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "50", "site", "dengan", "packet", "loss", "terbaik", "di", "wilayah", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "20", "site", "dengan", "handover", "success", "tertinggi", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "cell", "PLM0647", "di", "Kandangan", "metric", "erlang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC"]}
+{"tokens": ["tolong", "tampilkan", "50", "sel", "dengan", "prb", "terburuk", "di", "wilayah", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "20", "sel", "dengan", "rsrp", "paling", "rendah", "di", "area", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "site", "SMR6127"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tunjukkan", "10", "cell", "dengan", "throughput", "terendah", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "50", "site", "drop", "call", "paling", "rendah", "di", "wilayah", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "MDN7107", "di", "Padang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "100", "sel", "dengan", "sinr", "paling", "tinggi", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "SMR6562", "di", "Tanjung"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "20", "site", "dengan", "ul", "throughput", "terbaik", "di", "area", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "100", "cell", "dengan", "handover", "success", "terbaik", "di", "area", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "3", "cell", "dengan", "throughput", "paling", "rendah", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "JKT9979"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "5", "site", "dengan", "throughput", "yang", "terburuk", "pada", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "traffic", "buruk", "di", "Barabai"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "jumlah", "cell", "di", "Tangerang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "5", "sel", "dengan", "ul", "throughput", "terbaik", "di", "area", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "7", "site", "dengan", "cssr", "terbaik", "pada", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "5", "site", "dengan", "latency", "tertinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "7", "sel", "dengan", "jitter", "paling", "tinggi", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "20", "cell", "rsrp", "paling", "rendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "100", "cell", "dengan", "prb", "utilization", "terburuk", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "5", "cell", "dengan", "prb", "terburuk", "di", "area", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "cell", "dengan", "jitter", "terendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "10", "dengan", "drop", "call", "terburuk", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "10", "site", "dengan", "payload", "terendah", "pada", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "50", "cell", "dengan", "erlang", "paling", "rendah", "di", "wilayah", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "5", "sel", "packet", "loss", "yang", "tertinggi", "pada", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "MKS9711"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "3", "sel", "dengan", "mos", "terburuk", "di", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "site", "BPN6443"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "detail", "site", "JKT0624", "di", "Martapura"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "100", "sel", "dengan", "erlang", "tertinggi", "di", "area", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "5", "site", "dengan", "handover", "success", "paling", "tinggi", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "BDG6197"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "20", "site", "cssr", "terburuk", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "10", "sel", "dengan", "erlang", "paling", "tinggi", "pada", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "cell", "dengan", "prb", "terburuk", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "100", "site", "dengan", "availability", "terendah", "pada", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MTP9848"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "3", "dengan", "prb", "utilization", "tertinggi", "di", "wilayah", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "sel", "BPN9268"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["bagaimana", "status", "cell", "PLM0853"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "3", "site", "dengan", "latency", "yang", "terendah", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "50", "sel", "dengan", "sinr", "terbaik", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "3", "cell", "dengan", "jitter", "terbaik", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "50", "sel", "dengan", "ul", "throughput", "terendah", "pada", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "15", "site", "dengan", "sinr", "yang", "paling", "rendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "25", "site", "dengan", "drop", "call", "tertinggi", "di", "wilayah", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "50", "site", "rsrq", "tertinggi", "pada", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "cell", "traffic", "terbaik", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BJB9676", "di", "Kediri"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "sel", "dengan", "cssr", "paling", "rendah", "di", "area", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "7", "cell", "dengan", "payload", "paling", "rendah", "region", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "5", "jitter", "paling", "tinggi", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "20", "cell", "dengan", "prb", "terendah", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "50", "site", "dengan", "payload", "yang", "tertinggi", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "cell", "BJB9795", "di", "Solo"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "5", "cell", "dengan", "prb", "yang", "tertinggi", "di", "wilayah", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "sel", "dengan", "availability", "terendah", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "50", "site", "dengan", "drop", "call", "yang", "terendah", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BPN0231"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "sel", "MKS3593"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "daftar", "7", "site", "dengan", "jitter", "tertinggi", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "7", "cell", "dengan", "handover", "success", "yang", "terburuk", "di", "wilayah", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "throughput", "buruk", "di", "Malang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "SBY1692"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["detail", "untuk", "cell", "JKT2901", "di", "Bogor"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "15", "site", "users", "paling", "tinggi", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "50", "sel", "dengan", "rsrq", "paling", "tinggi", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "cell", "BDO7653", "di", "Denpasar"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "5", "sel", "dengan", "downtime", "paling", "rendah", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "50", "dengan", "handover", "success", "terendah", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "5", "site", "dengan", "packet", "loss", "terendah", "pada", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "sel", "BPN0042", "di", "Bekasi"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "100", "sel", "dengan", "prb", "utilization", "paling", "tinggi", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "SBY4114", "metric", "traffic"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["lihat", "5", "sel", "throughput", "terbaik", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "cell", "BJM0722"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "detail", "sel", "BPN2542"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["mohon", "tampilkan", "5", "sel", "dengan", "availability", "terbaik", "di", "wilayah", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "cell", "dengan", "prb", "yang", "paling", "tinggi", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "average", "throughput", "buruk", "di", "Surabaya"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "traffic", "buruk", "di", "Malang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "10", "cell", "dengan", "rsrp", "paling", "rendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "10", "cell", "dengan", "payload", "terendah", "di", "area", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "7", "sel", "dengan", "mos", "terbaik", "pada", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "5", "site", "average", "throughput", "tertinggi", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "3", "cell", "dengan", "latency", "yang", "terendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "3", "site", "dengan", "handover", "success", "terburuk", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "cell", "dengan", "handover", "success", "buruk", "di", "Martapura"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "25", "site", "dengan", "cell", "availability", "terburuk", "di", "wilayah", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "JKT1224"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "20", "site", "dengan", "cell", "availability", "paling", "tinggi", "di", "wilayah", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "sel", "SMR5556"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["coba", "tampilkan", "15", "cell", "dengan", "average", "throughput", "tertinggi", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "5", "site", "dengan", "dl", "throughput", "terendah", "di", "area", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "10", "sel", "dengan", "payload", "terendah", "di", "area", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "10", "site", "dengan", "cssr", "terendah", "di", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "jumlah", "cell", "di", "Bogor"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "SBY1238"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["coba", "tampilkan", "20", "site", "dengan", "ul", "throughput", "paling", "rendah", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "7", "sel", "dengan", "drop", "call", "paling", "tinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "dengan", "users", "tertinggi", "pada", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "sel", "MDN6432"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "status", "cell", "BDG2652", "metric", "traffic"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["saya", "mau", "lihat", "25", "dengan", "packet", "loss", "terbaik", "region", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "cell", "dengan", "payload", "terbaik", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "15", "sel", "erlang", "tertinggi", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "5", "site", "dengan", "prb", "paling", "rendah", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "10", "cell", "dengan", "jitter", "terbaik", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "5", "site", "downtime", "yang", "paling", "rendah", "region", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "sel", "BDG6078", "metric", "prb"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["lihat", "detail", "sel", "BDG7108"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "jumlah", "cell", "di", "Medan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "3", "cell", "handover", "success", "paling", "tinggi", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "3", "sel", "payload", "yang", "paling", "tinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "50", "site", "dengan", "prb", "terbaik", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "5", "cell", "dengan", "packet", "loss", "paling", "tinggi", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "BJB8694", "di", "Padang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BJB9748"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["ada", "berapa", "sel", "di", "Kandangan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "10", "cell", "average", "throughput", "yang", "terbaik", "di", "area", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "MKS6686"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["munculkan", "15", "sel", "dl", "throughput", "yang", "paling", "tinggi", "region", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MTP5802", "metric", "rsrp"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["tunjukkan", "100", "sel", "dengan", "detractor", "tertinggi", "pada", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "sel", "MKS7424"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["detail", "untuk", "cell", "BJB4405", "metric", "latency"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["tampilkan", "daftar", "15", "cell", "rsrp", "terendah", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "20", "cell", "dengan", "rsrp", "paling", "rendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "cell", "BDG1862", "metric", "mos"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["mohon", "tampilkan", "50", "sel", "dengan", "throughput", "yang", "terburuk", "di", "wilayah", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "20", "site", "dengan", "availability", "tertinggi", "pada", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "15", "sel", "dengan", "average", "throughput", "terendah", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "10", "site", "dengan", "jitter", "yang", "paling", "tinggi", "region", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "BDO8718"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "100", "sel", "drop", "call", "yang", "tertinggi", "pada", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "jumlah", "sel", "di", "Makassar"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "dengan", "latency", "yang", "tertinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "25", "site", "erlang", "paling", "tinggi", "pada", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "SBY9978", "di", "Barabai", "metric", "sinr"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC"]}
+{"tokens": ["munculkan", "20", "cell", "dengan", "handover", "success", "paling", "tinggi", "di", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "3", "sel", "dengan", "average", "throughput", "terburuk", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "50", "site", "dengan", "availability", "paling", "rendah", "pada", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "15", "site", "dengan", "rsrp", "tertinggi", "pada", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "15", "site", "dengan", "dl", "throughput", "tertinggi", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "5", "cell", "payload", "paling", "rendah", "di", "area", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "cell", "MTP3077"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "7", "sel", "dengan", "average", "throughput", "terburuk", "di", "area", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "100", "site", "dengan", "cssr", "paling", "tinggi", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "5", "sel", "dengan", "latency", "yang", "terbaik", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "jumlah", "sel", "di", "Solo"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "100", "site", "latency", "terbaik", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "15", "sel", "throughput", "paling", "rendah", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "7", "site", "dengan", "drop", "call", "paling", "rendah", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "cell", "dengan", "traffic", "buruk", "di", "Malang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "jumlah", "sel", "di", "Pekanbaru"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "10", "site", "dengan", "availability", "terendah", "pada", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "15", "sel", "dengan", "erlang", "paling", "tinggi", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "site", "dengan", "dl", "throughput", "tertinggi", "di", "area", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SBY2143", "di", "Batulicin"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "3", "cell", "dengan", "users", "yang", "terbaik", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "3", "sel", "dengan", "downtime", "paling", "tinggi", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "SMR8029"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "5", "erlang", "terburuk", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "site", "downtime", "yang", "terbaik", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "cell", "BDG5390"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["bagaimana", "status", "cell", "MDN5569"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "100", "cell", "packet", "loss", "yang", "terbaik", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "20", "site", "dengan", "dl", "throughput", "paling", "tinggi", "pada", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "15", "site", "dengan", "users", "yang", "terbaik", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "3", "dengan", "rsrq", "terendah", "di", "area", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "20", "site", "dengan", "sinr", "terburuk", "di", "wilayah", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "sel", "throughput", "yang", "terbaik", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "10", "site", "dengan", "ul", "throughput", "terburuk", "di", "area", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MDN3791", "di", "Barabai"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "BDG6184"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "50", "prb", "utilization", "terbaik", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "PLM7093", "di", "Yogyakarta"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "15", "sel", "dengan", "erlang", "yang", "terbaik", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "7", "cell", "rsrp", "tertinggi", "di", "wilayah", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "5", "site", "dengan", "rsrq", "paling", "tinggi", "di", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "20", "cell", "dengan", "detractor", "yang", "paling", "rendah", "pada", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "cell", "dengan", "downtime", "yang", "paling", "tinggi", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "10", "cell", "dengan", "latency", "terendah", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "7", "site", "users", "yang", "tertinggi", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "25", "cell", "dengan", "cell", "availability", "paling", "rendah", "di", "area", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "7", "site", "erlang", "terburuk", "pada", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "cell", "PLM3654", "di", "Makassar"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "site", "dengan", "prb", "utilization", "paling", "tinggi", "pada", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "50", "sel", "dengan", "cssr", "terendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BDO5828", "di", "Tangerang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "sel", "MKS4054"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tunjukkan", "15", "cell", "dengan", "payload", "terendah", "di", "wilayah", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "10", "cell", "dengan", "average", "throughput", "terburuk", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "10", "cell", "dengan", "prb", "utilization", "yang", "tertinggi", "di", "wilayah", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "PLM5286"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "daftar", "20", "sel", "dengan", "traffic", "terendah", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "jumlah", "cell", "di", "Banjarmasin"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "20", "cell", "cssr", "yang", "terbaik", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "site", "di", "Solo"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BPN0595"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "15", "site", "dengan", "dl", "throughput", "paling", "tinggi", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "sel", "BJM1091"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["detail", "untuk", "cell", "SBY4706", "di", "Malang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MTP3926", "untuk", "metric", "rsrq"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC"]}
+{"tokens": ["cek", "5", "sel", "cssr", "paling", "tinggi", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "10", "cell", "dengan", "erlang", "terendah", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "7", "sel", "dengan", "availability", "paling", "tinggi", "di", "area", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "cell", "rsrq", "terburuk", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BPN0339"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "7", "cell", "dengan", "cssr", "tertinggi", "di", "wilayah", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "cell", "SMR2188"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["saya", "mau", "lihat", "20", "sel", "dengan", "average", "throughput", "terburuk", "di", "area", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "downtime", "buruk", "di", "Yogyakarta"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "15", "dengan", "rsrp", "paling", "tinggi", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "7", "site", "dengan", "erlang", "yang", "tertinggi", "pada", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "dengan", "detractor", "terbaik", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "20", "cell", "dengan", "sinr", "tertinggi", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "sel", "dengan", "downtime", "tertinggi", "pada", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "15", "sel", "dengan", "rsrq", "tertinggi", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "10", "site", "dengan", "payload", "yang", "paling", "rendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "5", "cell", "dengan", "ul", "throughput", "yang", "paling", "rendah", "pada", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "10", "cell", "dengan", "dl", "throughput", "terbaik", "di", "area", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "100", "site", "dengan", "rsrp", "terburuk", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BPN2454"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["mohon", "tampilkan", "5", "cell", "dengan", "users", "paling", "rendah", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "3", "site", "dengan", "latency", "tertinggi", "pada", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "site", "BJM1826", "di", "Amuntai"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "100", "sel", "dengan", "availability", "yang", "paling", "rendah", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "jumlah", "cell", "di", "Tangerang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "SBY7886", "di", "Kandangan"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "sel", "SBY5428", "di", "Martapura"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "sel", "dengan", "mos", "tertinggi", "di", "wilayah", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "25", "cell", "handover", "success", "terbaik", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "sel", "BJB0340", "di", "Medan"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "cell", "dengan", "prb", "utilization", "paling", "tinggi", "di", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "50", "cell", "dengan", "throughput", "terendah", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "BDG1419", "metric", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["lihat", "25", "sel", "dengan", "handover", "success", "paling", "rendah", "di", "wilayah", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "SMR1298"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "20", "site", "dengan", "sinr", "terendah", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "prb", "utilization", "buruk", "di", "Tanjung"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "20", "cell", "dengan", "mos", "yang", "terburuk", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "BJM6838", "untuk", "metric", "users"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC"]}
+{"tokens": ["cek", "15", "dengan", "users", "terburuk", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "25", "cell", "dengan", "users", "paling", "rendah", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "cell", "dengan", "packet", "loss", "paling", "tinggi", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "5", "cell", "dengan", "traffic", "paling", "tinggi", "pada", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "20", "site", "dengan", "sinr", "tertinggi", "di", "area", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "BDG9545"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "100", "cell", "dengan", "cell", "availability", "terbaik", "pada", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "100", "cell", "dengan", "detractor", "terburuk", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "MKS2543", "di", "Banjarbaru", "metric", "payload"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC"]}
+{"tokens": ["mohon", "tampilkan", "15", "sel", "users", "paling", "rendah", "di", "wilayah", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "15", "cell", "latency", "terbaik", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "10", "cell", "dengan", "latency", "paling", "tinggi", "di", "area", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "25", "site", "dengan", "users", "tertinggi", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "100", "cell", "dengan", "sinr", "yang", "terendah", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "cell", "MKS2406"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "detail", "site", "BDO8964", "metric", "downtime"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["tolong", "tampilkan", "50", "sel", "dengan", "rsrq", "yang", "terendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "25", "sel", "dengan", "cell", "availability", "tertinggi", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "PLM1298", "metric", "average", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["munculkan", "3", "site", "dengan", "availability", "terbaik", "region", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "25", "site", "dengan", "users", "terburuk", "region", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "10", "site", "dengan", "average", "throughput", "paling", "tinggi", "di", "wilayah", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "BPN3853"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "3", "sel", "dengan", "cssr", "tertinggi", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "cell", "dengan", "cssr", "terburuk", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "BJB4735", "di", "Bandung"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "50", "sel", "handover", "success", "tertinggi", "di", "area", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "10", "sel", "dengan", "dl", "throughput", "terburuk", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "7", "sel", "dengan", "users", "yang", "terendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "7", "sel", "dengan", "detractor", "terendah", "pada", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "dengan", "dl", "throughput", "yang", "terendah", "pada", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "50", "cell", "dengan", "dl", "throughput", "yang", "paling", "tinggi", "pada", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "10", "site", "erlang", "paling", "tinggi", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "50", "sel", "cssr", "terendah", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "5", "site", "dengan", "rsrq", "yang", "terendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "5", "cell", "erlang", "paling", "rendah", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "50", "dengan", "prb", "paling", "rendah", "di", "wilayah", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "5", "cell", "dengan", "packet", "loss", "yang", "paling", "tinggi", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "5", "cell", "dengan", "users", "paling", "tinggi", "region", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "15", "site", "prb", "paling", "tinggi", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "10", "sel", "dengan", "erlang", "yang", "paling", "rendah", "pada", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "15", "sel", "latency", "paling", "rendah", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "25", "site", "dengan", "rsrp", "terburuk", "di", "wilayah", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "50", "cell", "dengan", "users", "paling", "tinggi", "di", "area", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "15", "sel", "prb", "utilization", "yang", "paling", "rendah", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "7", "site", "dengan", "cssr", "paling", "tinggi", "pada", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "sel", "SBY3932", "metric", "cell", "availability"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["munculkan", "jumlah", "sel", "di", "Semarang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "100", "cell", "dengan", "handover", "success", "terbaik", "pada", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MTP5163"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "3", "cell", "dengan", "downtime", "terburuk", "di", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "15", "sel", "dengan", "rsrq", "paling", "tinggi", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "20", "site", "dengan", "average", "throughput", "tertinggi", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "7", "site", "dengan", "packet", "loss", "terendah", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "7", "site", "dengan", "prb", "utilization", "tertinggi", "di", "wilayah", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "dengan", "average", "throughput", "yang", "tertinggi", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "cell", "dengan", "detractor", "yang", "tertinggi", "di", "wilayah", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "sel", "jitter", "paling", "tinggi", "di", "wilayah", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "10", "dengan", "users", "terendah", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BDG1614"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["sebutkan", "5", "sel", "dengan", "downtime", "terburuk", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "7", "sel", "dengan", "payload", "terburuk", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "100", "sel", "dengan", "detractor", "terbaik", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "7", "site", "dengan", "payload", "terendah", "di", "area", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "15", "dengan", "rsrq", "yang", "tertinggi", "di", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "cell", "dengan", "rsrp", "yang", "terbaik", "di", "wilayah", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "10", "cell", "dengan", "erlang", "yang", "tertinggi", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "50", "site", "prb", "terburuk", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "3", "cell", "dengan", "jitter", "tertinggi", "pada", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "25", "site", "dengan", "prb", "utilization", "tertinggi", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "3", "cell", "cssr", "paling", "tinggi", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "7", "site", "dengan", "sinr", "paling", "rendah", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "BJM1327"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["detail", "untuk", "cell", "MKS2052"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "detail", "cell", "SMR3708"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["munculkan", "7", "site", "sinr", "paling", "tinggi", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "5", "sel", "downtime", "terendah", "di", "area", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "50", "sel", "dengan", "prb", "tertinggi", "di", "area", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "5", "dengan", "payload", "terburuk", "di", "wilayah", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "sel", "BJB4226", "untuk", "metric", "dl", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["tampilkan", "daftar", "15", "cell", "dengan", "packet", "loss", "terburuk", "di", "area", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "3", "cell", "average", "throughput", "terendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "20", "cell", "traffic", "paling", "rendah", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "50", "cell", "dengan", "rsrp", "yang", "paling", "rendah", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "50", "dengan", "jitter", "tertinggi", "di", "wilayah", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "7", "sel", "detractor", "yang", "paling", "rendah", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "erlang", "terendah", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "site", "di", "Balikpapan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "MDN2350"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "detail", "cell", "BDG1817"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["sebutkan", "20", "site", "dengan", "throughput", "yang", "terbaik", "region", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "15", "cell", "dengan", "availability", "terbaik", "region", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "sinr", "buruk", "di", "Samarinda"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MTP9873", "di", "Solo"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "15", "cell", "dengan", "cell", "availability", "yang", "tertinggi", "region", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "sel", "BDG6855"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["saya", "mau", "lihat", "50", "site", "dengan", "detractor", "terendah", "region", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "site", "JKT2697"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "3", "cell", "dengan", "latency", "paling", "rendah", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "5", "cell", "cell", "availability", "tertinggi", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BDO1375"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["sebutkan", "10", "site", "drop", "call", "terburuk", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "sel", "MTP4131"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "5", "site", "dengan", "users", "terburuk", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "jumlah", "cell", "di", "Balikpapan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "20", "cell", "dengan", "users", "yang", "terendah", "pada", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "cell", "BDO5386"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["munculkan", "100", "cell", "dengan", "dl", "throughput", "terbaik", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "rsrp", "buruk", "di", "Padang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "50", "cell", "dengan", "dl", "throughput", "yang", "paling", "rendah", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "PLM1580", "di", "Bekasi"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "sel", "dengan", "traffic", "paling", "rendah", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "3", "cell", "dengan", "traffic", "terendah", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "25", "cell", "dengan", "rsrq", "paling", "rendah", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "cell", "dengan", "packet", "loss", "paling", "tinggi", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "100", "cell", "dengan", "payload", "paling", "tinggi", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BPN6429"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["sebutkan", "50", "dengan", "cell", "availability", "paling", "rendah", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "cell", "dengan", "handover", "success", "paling", "tinggi", "di", "area", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "20", "cell", "payload", "yang", "terburuk", "di", "wilayah", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "20", "cell", "dengan", "jitter", "terbaik", "pada", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MDN9799"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["sebutkan", "7", "sel", "dengan", "erlang", "terburuk", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MDN8533", "di", "Bekasi"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "15", "sel", "dengan", "cssr", "terendah", "region", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "5", "cell", "handover", "success", "terbaik", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "sel", "BPN8133", "untuk", "metric", "latency"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC"]}
+{"tokens": ["detail", "untuk", "cell", "MTP9697"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["detail", "untuk", "cell", "BPN9367"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "25", "sel", "dengan", "latency", "terendah", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "throughput", "buruk", "di", "Samarinda"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "100", "site", "dengan", "downtime", "paling", "tinggi", "di", "area", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "7", "dengan", "traffic", "yang", "terburuk", "di", "wilayah", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BDO0037"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "detail", "site", "JKT2161"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berapa", "banyak", "cell", "dengan", "downtime", "buruk", "di", "Yogyakarta"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "BDG9766"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "detail", "site", "PLM0217", "di", "Manado"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "site", "dengan", "handover", "success", "terbaik", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "BPN2950", "di", "Amuntai", "metric", "dl", "throughput"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["berikan", "daftar", "50", "sel", "dengan", "cssr", "terburuk", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "PLM7279"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["munculkan", "3", "site", "cell", "availability", "paling", "tinggi", "di", "wilayah", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "7", "sel", "dengan", "payload", "terendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "15", "sel", "dengan", "latency", "terbaik", "di", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "jitter", "buruk", "di", "Amuntai"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "JKT1750"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["saya", "mau", "lihat", "25", "sel", "traffic", "yang", "paling", "rendah", "di", "area", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "15", "cell", "dengan", "availability", "yang", "terbaik", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "20", "throughput", "yang", "tertinggi", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "cell", "dengan", "prb", "buruk", "di", "Yogyakarta"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "cell", "dengan", "downtime", "terendah", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "jumlah", "sel", "di", "Palembang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "prb", "buruk", "di", "Barabai"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "10", "sel", "dengan", "cssr", "terbaik", "di", "area", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "jumlah", "cell", "di", "Pontianak"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "7", "sel", "traffic", "paling", "tinggi", "di", "Bogor"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "3", "sel", "dengan", "handover", "success", "yang", "tertinggi", "pada", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "15", "cell", "dengan", "ul", "throughput", "terbaik", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "100", "cell", "dengan", "users", "terbaik", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MDN0337"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "3", "site", "dengan", "traffic", "terendah", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "SMR9894", "di", "Kotabaru", "metric", "prb"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC"]}
+{"tokens": ["cek", "detail", "cell", "SBY1521", "di", "Amuntai"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "7", "sel", "dengan", "detractor", "paling", "rendah", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "sel", "dengan", "payload", "yang", "terendah", "di", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "10", "cell", "dengan", "sinr", "terendah", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "jumlah", "site", "di", "Banjarmasin"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "20", "dengan", "throughput", "paling", "tinggi", "pada", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "site", "dengan", "jitter", "yang", "terbaik", "di", "area", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "BDO2970", "di", "Barabai"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BPN4524"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["munculkan", "50", "erlang", "terburuk", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MKS6255"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["detail", "untuk", "cell", "BDO2700", "di", "Banjarmasin"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "BPN4011"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "5", "sel", "prb", "terendah", "di", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "JKT3919"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["coba", "tampilkan", "3", "dengan", "sinr", "yang", "tertinggi", "di", "wilayah", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "5", "cell", "dengan", "drop", "call", "terburuk", "region", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "cell", "dengan", "latency", "terendah", "di", "wilayah", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "sel", "BJM2985", "metric", "downtime"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["berikan", "daftar", "15", "cell", "dengan", "downtime", "yang", "paling", "rendah", "di", "area", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "25", "dengan", "dl", "throughput", "terburuk", "di", "wilayah", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SBY6479", "di", "Makassar"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "15", "cell", "dengan", "rsrq", "terbaik", "di", "wilayah", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "sel", "dengan", "average", "throughput", "paling", "rendah", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "25", "cell", "dengan", "payload", "paling", "rendah", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "BJM3533", "di", "Bandung", "metric", "detractor"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC"]}
+{"tokens": ["coba", "tampilkan", "7", "site", "dengan", "payload", "terburuk", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "cell", "dengan", "average", "throughput", "terendah", "pada", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "10", "dengan", "mos", "yang", "terendah", "di", "area", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "50", "site", "dengan", "availability", "terbaik", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BDG1874", "untuk", "metric", "drop", "call"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["coba", "tampilkan", "5", "cell", "dengan", "throughput", "terburuk", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "50", "sel", "cssr", "paling", "rendah", "di", "wilayah", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "20", "sel", "dengan", "throughput", "terburuk", "di", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "10", "site", "dengan", "latency", "paling", "tinggi", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "25", "sel", "dengan", "cell", "availability", "paling", "tinggi", "pada", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "sel", "dengan", "rsrq", "paling", "tinggi", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "25", "cell", "dengan", "handover", "success", "paling", "tinggi", "di", "area", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "50", "cell", "dengan", "mos", "tertinggi", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "25", "dengan", "cssr", "terburuk", "di", "wilayah", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "15", "site", "dengan", "detractor", "paling", "tinggi", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "jumlah", "cell", "di", "Kandangan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "site", "downtime", "terburuk", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "25", "cell", "dengan", "prb", "utilization", "tertinggi", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "15", "cell", "dengan", "cssr", "paling", "rendah", "region", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "cell", "SMR8413"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "detail", "cell", "BDO1319", "metric", "latency"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["tunjukkan", "25", "sel", "dengan", "mos", "paling", "tinggi", "region", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "7", "cell", "cssr", "yang", "paling", "rendah", "di", "wilayah", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "cell", "prb", "tertinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "100", "site", "mos", "paling", "rendah", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "BDG3943"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "25", "dengan", "rsrq", "tertinggi", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "15", "site", "dengan", "rsrq", "terbaik", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "50", "sel", "latency", "yang", "terbaik", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "50", "dengan", "jitter", "paling", "tinggi", "di", "wilayah", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "15", "site", "dengan", "prb", "terbaik", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "15", "site", "dengan", "jitter", "paling", "rendah", "di", "area", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "jumlah", "site", "di", "Bengkulu"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "100", "site", "dengan", "rsrp", "paling", "rendah", "di", "area", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "100", "cell", "dengan", "availability", "paling", "rendah", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "3", "cell", "dengan", "average", "throughput", "terendah", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "100", "dengan", "rsrq", "tertinggi", "region", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "25", "cell", "dengan", "dl", "throughput", "terendah", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "100", "sel", "dengan", "availability", "terendah", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "15", "site", "dengan", "prb", "utilization", "paling", "tinggi", "pada", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "20", "site", "cell", "availability", "terbaik", "pada", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "25", "site", "dengan", "detractor", "paling", "tinggi", "pada", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "100", "sel", "dengan", "cell", "availability", "paling", "tinggi", "pada", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "25", "sel", "dengan", "handover", "success", "yang", "terendah", "di", "area", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "jumlah", "cell", "di", "Batulicin"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "50", "dengan", "erlang", "tertinggi", "region", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "jumlah", "cell", "di", "Rantau"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "sel", "MDN9738", "di", "Bogor", "untuk", "metric", "prb", "utilization"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["mohon", "tampilkan", "3", "sel", "dengan", "downtime", "paling", "rendah", "di", "area", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "15", "sel", "dengan", "traffic", "paling", "rendah", "pada", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "cell", "MDN5889"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["mohon", "tampilkan", "15", "cell", "dengan", "handover", "success", "terbaik", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "7", "site", "dengan", "average", "throughput", "paling", "rendah", "di", "wilayah", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "10", "site", "dengan", "users", "paling", "tinggi", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "jumlah", "cell", "di", "Bengkulu"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "site", "di", "Malang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "20", "site", "sinr", "paling", "tinggi", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "site", "dl", "throughput", "terendah", "di", "area", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["buatkan", "janji", "temu", "besok"], "intent": "UNKNOWN", "slots": ["O", "O", "O", "O"]}
+{"tokens": ["sebutkan", "5", "sel", "dengan", "erlang", "terburuk", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "3", "sel", "dengan", "prb", "utilization", "terendah", "di", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "100", "site", "dengan", "packet", "loss", "terbaik", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "MKS3423", "untuk", "metric", "cell", "availability"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["tampilkan", "daftar", "25", "dengan", "jitter", "terendah", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "20", "dengan", "cell", "availability", "terendah", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "15", "dengan", "rsrq", "terendah", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "15", "site", "dengan", "rsrq", "terburuk", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "PLM2077"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "7", "cell", "dengan", "sinr", "yang", "paling", "tinggi", "di", "area", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "sel", "di", "Banjarmasin"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "10", "sel", "dengan", "mos", "yang", "terburuk", "di", "wilayah", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "5", "cell", "dengan", "packet", "loss", "tertinggi", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "JKT6646", "di", "Makassar"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "site", "SMR1915"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "50", "site", "cell", "availability", "terendah", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "detail", "cell", "BDG6464", "di", "Semarang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "7", "cell", "latency", "terburuk", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "100", "sel", "dengan", "prb", "paling", "rendah", "di", "area", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "3", "site", "dengan", "availability", "yang", "tertinggi", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "site", "dengan", "average", "throughput", "terendah", "di", "wilayah", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BJM4227", "di", "Yogyakarta"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "15", "sel", "dengan", "jitter", "terendah", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "site", "di", "Bekasi"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "25", "cell", "dengan", "users", "terburuk", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "BDG8161"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "daftar", "3", "site", "dengan", "ul", "throughput", "tertinggi", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "50", "sel", "dengan", "rsrq", "tertinggi", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "7", "cell", "rsrq", "yang", "terendah", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "25", "cell", "dengan", "throughput", "yang", "terburuk", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BDG4623", "untuk", "metric", "downtime"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC"]}
+{"tokens": ["lihat", "status", "cell", "BDO9484", "untuk", "metric", "traffic"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC"]}
+{"tokens": ["atur", "alarm", "jam", "5", "pagi"], "intent": "UNKNOWN", "slots": ["O", "O", "O", "O", "O"]}
+{"tokens": ["tampilkan", "100", "sel", "prb", "terendah", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "5", "cell", "dengan", "packet", "loss", "paling", "rendah", "di", "wilayah", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "jumlah", "sel", "di", "Bogor"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MTP5665"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["saya", "mau", "lihat", "20", "site", "dengan", "downtime", "terbaik", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "25", "dengan", "packet", "loss", "yang", "tertinggi", "di", "area", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "site", "BDG3184", "di", "Manado"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "site", "di", "Tangerang"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "100", "sel", "dengan", "prb", "terburuk", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "dengan", "average", "throughput", "paling", "tinggi", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "SBY7283", "di", "Malang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "20", "site", "dengan", "detractor", "terendah", "pada", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "site", "dengan", "erlang", "terbaik", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "25", "cell", "dengan", "prb", "utilization", "terendah", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "cell", "dengan", "mos", "yang", "paling", "rendah", "di", "area", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "site", "BJB0139"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["coba", "tampilkan", "3", "sel", "dengan", "prb", "utilization", "yang", "terbaik", "di", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "site", "dengan", "availability", "terbaik", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "status", "cell", "MDN5007", "metric", "prb", "utilization"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["tolong", "tampilkan", "100", "sel", "prb", "yang", "terendah", "di", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "site", "dengan", "rsrq", "paling", "tinggi", "di", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "3", "cell", "dengan", "prb", "paling", "tinggi", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "site", "BDO6082"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "detail", "cell", "SMR3095"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "10", "site", "dengan", "jitter", "terburuk", "di", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "50", "cell", "dengan", "latency", "yang", "paling", "rendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "cell", "availability", "buruk", "di", "Samarinda"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "I-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "5", "cell", "dengan", "cssr", "yang", "terburuk", "region", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "25", "sel", "cssr", "paling", "tinggi", "di", "wilayah", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "3", "site", "dengan", "rsrq", "terendah", "di", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "5", "site", "dengan", "average", "throughput", "tertinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "3", "site", "dengan", "dl", "throughput", "tertinggi", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "3", "cell", "dengan", "users", "terbaik", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "10", "site", "dengan", "prb", "terendah", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "site", "dengan", "downtime", "tertinggi", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "3", "sel", "dengan", "prb", "utilization", "terbaik", "di", "wilayah", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "3", "cell", "dengan", "rsrq", "paling", "tinggi", "pada", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "MKS1922", "di", "Padang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "15", "handover", "success", "yang", "paling", "rendah", "di", "wilayah", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "10", "sel", "dengan", "prb", "utilization", "paling", "rendah", "di", "area", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "100", "sel", "dengan", "traffic", "terburuk", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "10", "site", "dengan", "users", "terendah", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SMR8362"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["sebutkan", "jumlah", "sel", "di", "Kandangan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "3", "sel", "dengan", "jitter", "yang", "terbaik", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "25", "site", "dengan", "handover", "success", "terburuk", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "20", "site", "dengan", "latency", "paling", "rendah", "di", "wilayah", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "25", "dengan", "prb", "utilization", "terburuk", "di", "wilayah", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SMR8773", "di", "Malang"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "5", "sel", "dengan", "cssr", "paling", "rendah", "di", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "100", "cell", "payload", "terbaik", "di", "Kandangan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "20", "site", "dengan", "rsrq", "terbaik", "di", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "25", "sel", "dengan", "dl", "throughput", "tertinggi", "pada", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "sel", "dengan", "users", "buruk", "di", "Kandangan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "20", "cell", "dengan", "rsrp", "terburuk", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "jumlah", "sel", "di", "Medan"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "cell", "BJB0584", "untuk", "metric", "payload"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC"]}
+{"tokens": ["tunjukkan", "25", "site", "dengan", "jitter", "paling", "tinggi", "region", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "25", "sel", "dengan", "drop", "call", "yang", "terendah", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "status", "cell", "BJM7503", "di", "Surabaya"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "100", "cell", "dengan", "payload", "tertinggi", "di", "area", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "25", "cell", "dengan", "throughput", "paling", "rendah", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "10", "sel", "dengan", "latency", "terbaik", "pada", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["alamat", "kantor", "pos", "terdekat"], "intent": "UNKNOWN", "slots": ["O", "O", "O", "O"]}
+{"tokens": ["berikan", "25", "cell", "dengan", "cssr", "terburuk", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BJB3950", "di", "Bandung", "metric", "latency"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "B-METRIC"]}
+{"tokens": ["cek", "100", "site", "dengan", "downtime", "paling", "tinggi", "di", "area", "Banjarmasin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "3", "cell", "dengan", "users", "yang", "paling", "rendah", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "7", "site", "dengan", "rsrq", "paling", "rendah", "region", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "jumlah", "cell", "di", "Bandarlampung"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "cell", "SMR6169"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["sebutkan", "5", "cell", "dengan", "downtime", "terburuk", "pada", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "15", "site", "dengan", "rsrp", "terendah", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "5", "cell", "dengan", "prb", "paling", "tinggi", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "sel", "MTP5270", "di", "Manado"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "20", "site", "dengan", "prb", "utilization", "paling", "tinggi", "di", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "10", "cell", "dengan", "handover", "success", "yang", "paling", "tinggi", "di", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "50", "site", "dengan", "drop", "call", "paling", "tinggi", "di", "area", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "BPN9836"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "5", "site", "dengan", "downtime", "tertinggi", "di", "Solo"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "100", "sel", "dengan", "downtime", "terburuk", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "20", "cell", "dengan", "rsrp", "terbaik", "pada", "Tanjung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "5", "cell", "dengan", "jitter", "terburuk", "di", "area", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "BPN9807", "di", "Medan"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "site", "di", "Manado"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "25", "cell", "dengan", "dl", "throughput", "paling", "rendah", "di", "area", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["munculkan", "10", "cell", "dengan", "availability", "paling", "rendah", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "10", "payload", "yang", "terburuk", "di", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "SMR0269", "di", "Amuntai"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "25", "cell", "dengan", "latency", "terendah", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "10", "sinr", "terbaik", "region", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "sel", "di", "Rantau"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "7", "dengan", "cssr", "paling", "rendah", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "cell", "SMR2241"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["lihat", "status", "cell", "SMR7171", "di", "Barabai", "untuk", "metric", "rsrp"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "O", "B-METRIC"]}
+{"tokens": ["saya", "mau", "lihat", "25", "cell", "dengan", "throughput", "terburuk", "di", "area", "Barabai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "20", "cell", "dengan", "mos", "terbaik", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "5", "site", "dengan", "sinr", "terendah", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "15", "sel", "dengan", "downtime", "terburuk", "di", "wilayah", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "100", "dengan", "availability", "paling", "tinggi", "di", "Medan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "25", "site", "dengan", "cssr", "paling", "rendah", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "3", "sel", "dengan", "ul", "throughput", "tertinggi", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "5", "sel", "dengan", "dl", "throughput", "yang", "terbaik", "pada", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "3", "cell", "dengan", "throughput", "tertinggi", "di", "area", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "sel", "di", "Batulicin"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "100", "sel", "dengan", "dl", "throughput", "paling", "rendah", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "15", "sel", "dengan", "drop", "call", "paling", "tinggi", "di", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "100", "sel", "dengan", "latency", "yang", "terburuk", "pada", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "10", "site", "dengan", "average", "throughput", "tertinggi", "di", "Bengkulu"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "10", "cell", "dengan", "detractor", "terburuk", "pada", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["ada", "berapa", "site", "di", "Barabai"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "JKT6434", "untuk", "metric", "prb", "utilization"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "O", "B-METRIC", "I-METRIC"]}
+{"tokens": ["coba", "tampilkan", "50", "cell", "drop", "call", "yang", "terbaik", "di", "wilayah", "Bandarlampung"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "site", "dengan", "throughput", "yang", "paling", "tinggi", "di", "wilayah", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "PLM8045"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "status", "cell", "MDN3831"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "daftar", "15", "cell", "drop", "call", "terbaik", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "25", "sel", "dengan", "dl", "throughput", "terendah", "di", "Semarang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "jumlah", "cell", "di", "Cirebon"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["bagaimana", "status", "cell", "SBY4891", "metric", "cssr"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["tunjukkan", "25", "dengan", "throughput", "terbaik", "pada", "Manado"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "JKT0778"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "detail", "cell", "BPN2002"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tolong", "tampilkan", "3", "cell", "users", "tertinggi", "pada", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "site", "SBY0194"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "jumlah", "sel", "di", "Amuntai"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["cek", "3", "sel", "dengan", "prb", "utilization", "yang", "tertinggi", "pada", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "15", "dengan", "sinr", "terburuk", "region", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "7", "sel", "dengan", "packet", "loss", "terbaik", "di", "area", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "7", "site", "dengan", "sinr", "terbaik", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "7", "sel", "dengan", "cell", "availability", "paling", "rendah", "di", "area", "Bandung"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "10", "site", "dengan", "availability", "terendah", "di", "area", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "jumlah", "cell", "di", "Makassar"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "JKT2070"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "detail", "sel", "BDG8366"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["mohon", "tampilkan", "25", "dengan", "prb", "utilization", "terburuk", "di", "Amuntai"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "jumlah", "site", "di", "Martapura"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "15", "site", "dengan", "drop", "call", "terendah", "di", "area", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "MTP1145"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "100", "cell", "dengan", "rsrq", "yang", "terendah", "di", "wilayah", "Yogyakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "20", "sel", "dengan", "latency", "yang", "paling", "rendah", "di", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "50", "site", "dengan", "ul", "throughput", "terburuk", "di", "Banjarbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "15", "site", "dengan", "throughput", "tertinggi", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "site", "SMR0340"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["detail", "untuk", "cell", "JKT6330", "metric", "payload"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["tampilkan", "detail", "sel", "SBY5306"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["tampilkan", "status", "cell", "BDO2372", "di", "Denpasar"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "daftar", "20", "cell", "dengan", "detractor", "terbaik", "di", "Denpasar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "3", "sel", "rsrp", "paling", "tinggi", "di", "Jakarta"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "20", "sel", "dengan", "downtime", "yang", "terburuk", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "sel", "SMR3115", "di", "Kotabaru"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "sel", "SMR0651", "di", "Bandung"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "cell", "dengan", "packet", "loss", "yang", "paling", "tinggi", "di", "Makassar"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "25", "site", "handover", "success", "terbaik", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "cell", "dengan", "sinr", "tertinggi", "di", "wilayah", "Pekanbaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "15", "cell", "dengan", "prb", "utilization", "paling", "rendah", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "5", "sel", "dengan", "prb", "terendah", "di", "Surabaya"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "25", "site", "ul", "throughput", "paling", "rendah", "di", "wilayah", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "BDO0873", "metric", "rsrq"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-METRIC"]}
+{"tokens": ["berikan", "daftar", "3", "site", "detractor", "yang", "terendah", "di", "Palembang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "10", "dengan", "downtime", "yang", "paling", "tinggi", "di", "area", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "3", "dengan", "jitter", "terbaik", "di", "area", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["coba", "tampilkan", "15", "site", "dengan", "ul", "throughput", "terendah", "di", "Martapura"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "15", "cell", "dengan", "cssr", "tertinggi", "di", "Samarinda"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "status", "cell", "BDG7046"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["cek", "detail", "sel", "MTP1970", "di", "Malang", "untuk", "metric", "traffic"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION", "O", "O", "B-METRIC"]}
+{"tokens": ["tampilkan", "daftar", "7", "sel", "dengan", "latency", "terendah", "di", "Bekasi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "daftar", "7", "dengan", "handover", "success", "terbaik", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tolong", "tampilkan", "20", "cell", "dengan", "prb", "paling", "tinggi", "di", "area", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["detail", "untuk", "cell", "BDG8999"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["carikan", "20", "cell", "dengan", "rsrp", "paling", "rendah", "di", "Kotabaru"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["tampilkan", "15", "dengan", "average", "throughput", "terburuk", "di", "Padang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "25", "dengan", "drop", "call", "yang", "terburuk", "di", "Rantau"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "detail", "cell", "JKT1526"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID"]}
+{"tokens": ["berikan", "10", "sel", "dengan", "erlang", "paling", "rendah", "di", "area", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "I-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["lihat", "sel", "BDO8602"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "B-CELL_ID"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "rsrp", "buruk", "di", "Jambi"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "15", "prb", "paling", "tinggi", "di", "Batulicin"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "B-METRIC", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["saya", "mau", "lihat", "10", "sel", "dengan", "packet", "loss", "yang", "paling", "rendah", "di", "Tangerang"], "intent": "GET_TOP_CELLS", "slots": ["O", "O", "O", "B-LIMIT", "O", "O", "B-METRIC", "I-METRIC", "O", "B-ORDER", "I-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["cek", "detail", "cell", "BDO5326", "di", "Batulicin"], "intent": "GET_CELL_DETAIL", "slots": ["O", "O", "O", "B-CELL_ID", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "20", "sel", "traffic", "tertinggi", "di", "Jambi"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "15", "site", "dengan", "cssr", "terbaik", "di", "wilayah", "Malang"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "banyak", "site", "dengan", "users", "buruk", "di", "Kediri"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "B-METRIC", "O", "O", "B-LOCATION"]}
+{"tokens": ["mohon", "tampilkan", "jumlah", "sel", "di", "Makassar"], "intent": "GET_CELL_COUNT", "slots": ["O", "O", "O", "O", "O", "B-LOCATION"]}
+{"tokens": ["tunjukkan", "15", "cell", "availability", "yang", "tertinggi", "di", "Kediri"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berikan", "10", "cell", "dengan", "downtime", "yang", "terburuk", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["carikan", "15", "cell", "sinr", "yang", "terendah", "di", "Cirebon"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "O", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["berapa", "harga", "paket", "internet"], "intent": "UNKNOWN", "slots": ["O", "O", "O", "O"]}
+{"tokens": ["carikan", "7", "sel", "payload", "tertinggi", "di", "Balikpapan"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}
+{"tokens": ["sebutkan", "15", "cell", "dengan", "prb", "terburuk", "di", "Pontianak"], "intent": "GET_TOP_CELLS", "slots": ["O", "B-LIMIT", "O", "O", "B-METRIC", "B-ORDER", "O", "B-LOCATION"]}

@@ -1,0 +1,7 @@
+artifacts/*
+!artifacts/.gitkeep
+output/
+__pycache__/
+*.pyc
+.venv/
+uv.lock
