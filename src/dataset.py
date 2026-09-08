@@ -97,6 +97,24 @@ def spans_from_ids(ids, tokens=None):
     return decode_spans([ID_TO_SLOT[int(i)] for i in ids], tokens)
 
 
+# Finite-state ORDER: free-text span -> SQL-ready direction.
+# Substring match covers morphological family (terendah/rendah, tertinggi/tinggi,
+# terburuk/buruk, terbaik/baik). Mirrors DIRECTION_HINTS in ai/src/application/intent.ts.
+ORDER_DIRECTIONS = (
+    ("ascending", ("rendah", "lowest", "buruk")),
+    ("descending", ("tinggi", "highest", "baik")),
+)
+
+
+def normalize_order(text):
+    """ORDER span text -> 'ascending' | 'descending' | None (unknown phrase)."""
+    lowered = (text or "").lower()
+    for direction, patterns in ORDER_DIRECTIONS:
+        if any(p in lowered for p in patterns):
+            return direction
+    return None
+
+
 def tokenize_and_align(records, tokenizer):
     encodings = tokenizer(
         [r["tokens"] for r in records],

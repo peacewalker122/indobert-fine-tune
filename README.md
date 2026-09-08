@@ -54,6 +54,11 @@ Artifact versions are never overwritten — export fails if the target dir exist
 - entity span micro/macro/per-type F1. Token-level slot F1 is debug-only.
 - UNKNOWN P/R/F1, OOD false-accept, known false-reject, coverage, selective
   accuracy. Thresholds fit on validation only (`--fit-calibration`).
+- ORDER direction accuracy: finite-state `normalize_order` maps span text →
+  `ascending`/`descending`/`None` (substring families: rendah/lowest/buruk,
+  tinggi/highest/baik). SQL reads the enum, never raw text. Unmapped-gold
+  count must be 0 — nonzero means vocab gap. Mirrored in `DIRECTION_HINTS`
+  (`ai/src/application/intent.ts`).
 - CPU: artifact size, load time, p50/p95/p99 batch-1 latency, throughput
   (`uv run python -m src.bench --artifact ...`).
 

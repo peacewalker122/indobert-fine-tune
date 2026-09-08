@@ -43,6 +43,8 @@ def build_scorecard(reports_dir, version_base, seeds):
     summary["entity_micro_f1"] = agg([r["entity_span"]["micro"]["f1"] for r in rows])
     summary["entity_macro_f1"] = agg([r["entity_span"]["macro_f1"] for r in rows])
     summary["unknown_f1"] = agg([r["unknown"]["f1"] for r in rows])
+    summary["order_direction_acc"] = agg([r.get("order_direction", {}).get("accuracy", 0.0)
+                                          for r in rows])
     return {"version_base": version_base, "seeds": list(seeds), "n": len(rows),
             "summary": summary, "reports": [str(p) for p in reports]}
 

@@ -9,12 +9,12 @@ from safetensors.torch import load_file
 from transformers import AutoConfig, AutoModel, AutoTokenizer
 
 from . import calibrate as calib
-from .config import ID_TO_SLOT, IGNORE_INDEX, INTENT_TO_ID
 from .dataset import (
     PadCollator,
     count_illegal_bio,
     decode_spans,
     load_jsonl,
+    normalize_order,
     tokenize_and_align,
     validate_record,
 )
@@ -139,6 +139,19 @@ def report(model_dir, data_dir="data", thresholds=None, output=None,
     accepted = ~pred_unk
     selective = float(flags[accepted].mean()) if accepted.sum() else 0.0
 
+    def order_text(spans):
+        return " ".join(t for ty, _, _, t in spans if ty == "ORDER")
+
+    dir_ok, dir_n, dir_unmapped_gold = 0, 0, 0
+    for ps, gs in zip(pred_spans, gold_spans):
+        g, p = normalize_order(order_text(gs)), normalize_order(order_text(ps))
+        if order_text(gs):
+            dir_n += 1
+            dir_unmapped_gold += g is None
+        dir_ok += p == g
+    direction = {"accuracy": dir_ok / len(records) if records else 0.0,
+                 "n_gold": dir_n,
+                 "unmapped_gold": dir_unmapped_gold}
     test_path = Path(data_dir) / f"{split}.jsonl"
     man_path = Path(data_dir) / MANIFEST
     res = {
@@ -158,6 +171,7 @@ def report(model_dir, data_dir="data", thresholds=None, output=None,
         "unknown": {**unk, "false_accept_rate": ood_far, "known_false_reject_rate": known_fr},
         "coverage": coverage,
         "selective_accuracy": selective,
+        "order_direction": direction,
         "margins": {"mean": float(margins.mean()), "p50": float(np.median(margins))},
         "illegal_bio_pred": int(sum(count_illegal_bio([ID_TO_SLOT[i] for i in r]) for r in ps_rows)),
         "misclassified": [
@@ -176,6 +190,8 @@ def report(model_dir, data_dir="data", thresholds=None, output=None,
           f"false-accept {ood_far:.3f} known-false-reject {known_fr:.3f}")
     print(f"coverage {coverage:.3f} selective {selective:.3f} "
           f"threshold {threshold} ({method})")
+    print(f"order direction acc {direction['accuracy']:.4f} "
+          f"(gold {direction['n_gold']}, unmapped {direction['unmapped_gold']})")
     for lang, s in by_lang.items():
         print(f"  lang {lang}: exact {s['exact']:.4f} (n={s['n']})")
 

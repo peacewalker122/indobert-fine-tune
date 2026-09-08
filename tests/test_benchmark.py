@@ -4,7 +4,7 @@ import pytest
 
 from src import calibrate as calib
 from src.config import INTENT_TO_ID
-from src.dataset import count_illegal_bio, decode_spans, validate_record
+from src.dataset import count_illegal_bio, decode_spans, normalize_order, validate_record
 from src.metrics import bootstrap_ci, entity_span_report, exact_flags, intent_report
 from src.split import group_split
 
@@ -77,3 +77,14 @@ def test_group_split_no_leakage_and_deterministic():
             prev = seen.setdefault(r["group_id"], split)
             assert prev == split, (r["group_id"], prev, split)
     assert json.dumps(a["train"][:1])  # serializable
+
+def test_normalize_order_finite_state():
+    asc = ["terendah", "rendah", "Paling Rendah", "lowest", "terburuk", "paling buruk"]
+    desc = ["tertinggi", "tinggi", "Paling Tinggi", "highest", "terbaik", "paling baik"]
+    for t in asc:
+        assert normalize_order(t) == "ascending", t
+    for t in desc:
+        assert normalize_order(t) == "descending", t
+    assert normalize_order("paling murah") is None
+    assert normalize_order("") is None
+    assert normalize_order(None) is None
