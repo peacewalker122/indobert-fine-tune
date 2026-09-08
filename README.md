@@ -59,7 +59,10 @@ Artifact versions are never overwritten — export fails if the target dir exist
 
 ```bash
 uv run python -m src.split
-uv run python -m src.train --seed 42  # repeat 43/44 for 3-seed benchmark
+uv run python -m src.sweep --version-base intent-slot-v2 --seeds 42 43 44
+# per seed: train → fit thresholds on validation → frozen test report;
+# writes reports/report-<seed>.json + reports/scorecard.json (mean/std).
+# Smoke first: add --epochs 1 --max-samples 32 to sweep. Manual equivalent:
 uv run python -m src.evaluate --artifact artifacts/intent-slot-v1 --split validation \
   --fit-calibration thresholds.json   # validation only
 uv run python -m src.evaluate --artifact artifacts/intent-slot-v1 --output report.json \
