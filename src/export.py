@@ -13,7 +13,7 @@ from .config import (
 from .dataset import PadCollator  # noqa: F401  (kept importable for consumers)
 
 
-def save_artifact(model, tokenizer, version, metrics=None, hyperparams=None):
+def save_artifact(model, tokenizer, version, metrics=None, hyperparams=None, extra=None):
     out_dir = Path(ARTIFACT_DIR) / version
     if out_dir.exists():
         raise FileExistsError(f"artifact {out_dir} already exists — never overwrite a version")
@@ -33,6 +33,7 @@ def save_artifact(model, tokenizer, version, metrics=None, hyperparams=None):
         "base_model": MODEL_NAME,
         **(hyperparams or {}),
         "metrics": metrics or {},
+        **(extra or {}),
     }
     with open(out_dir / "training_metadata.json", "w") as f:
         json.dump(metadata, f, indent=2)

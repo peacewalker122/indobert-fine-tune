@@ -17,13 +17,15 @@ def main():
     ap.add_argument("--max-samples", type=int, default=None)
     ap.add_argument("--output-dir", type=Path, default=Path("output"))
     ap.add_argument("--version", default=ARTIFACT_VERSION)
+    ap.add_argument("--seed", type=int, default=SEED)
     args = ap.parse_args()
 
     cfg = TrainingConfig()
     if args.epochs is not None:
         cfg.epochs = args.epochs
+    cfg.seed = args.seed
 
-    set_seed(SEED)
+    set_seed(args.seed)
 
     from transformers import AutoModel, AutoTokenizer
 
@@ -48,7 +50,7 @@ def main():
         logging_steps=10,
         max_grad_norm=1.0,
         load_best_model_at_end=True,
-        metric_for_best_model="f1",
+        metric_for_best_model="exact_command_accuracy",
         save_total_limit=2,
         remove_unused_columns=False,
         report_to=[],
@@ -71,11 +73,14 @@ def main():
         "epochs": cfg.epochs,
         "batch_size": cfg.batch_size,
         "max_length": 64,
-        "seed": SEED,
+        "seed": args.seed,
         "train_size": len(train_ds),
         "validation_size": len(val_ds),
     }
     clean_metrics = {k: v for k, v in final_metrics.items() if isinstance(v, float)}
+    man = Path("data/split_manifest.json")
+    if man.exists():
+        hyperparams["split_manifest"] = json.loads(man.read_text())
     save_artifact(trainer.model, tokenizer, args.version, metrics=clean_metrics, hyperparams=hyperparams)
 
 

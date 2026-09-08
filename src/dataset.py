@@ -6,12 +6,17 @@ from datasets import Dataset
 from transformers import AutoTokenizer
 
 from .config import (
+    ID_TO_SLOT,
     IGNORE_INDEX,
     INTENT_TO_ID,
     MAX_LENGTH,
     MODEL_NAME,
     SLOT_TO_ID,
 )
+
+LANGUAGES = ("id", "en", "mixed")
+
+ENTITY_TYPES = sorted({s[2:] for s in SLOT_TO_ID if s != "O"})
 
 
 def load_jsonl(path):
@@ -42,6 +47,54 @@ def validate_record(record, line_no=0):
     for slot in slots:
         if slot not in SLOT_TO_ID:
             raise ValueError(f"line {line_no}: unknown slot {slot!r}")
+    prev = "O"
+    for slot in slots:
+        if slot.startswith("I-"):
+            want = slot[2:]
+            if prev not in (f"B-{want}", f"I-{want}"):
+                raise ValueError(f"line {line_no}: illegal BIO transition {prev} -> {slot}")
+        prev = slot
+    lang = record.get("language", None)
+    if lang is not None and lang not in LANGUAGES:
+        raise ValueError(f"line {line_no}: unknown language {lang!r}")
+    for key in ("id", "group_id", "source"):
+        if key in record and not isinstance(record[key], str):
+            raise ValueError(f"line {line_no}: {key!r} must be a string")
+
+
+def count_illegal_bio(labels):
+    """Count I- tags not preceded by B-/I- of same type (before repair)."""
+    n, prev = 0, "O"
+    for lab in labels:
+        if lab.startswith("I-"):
+            want = lab[2:]
+            if prev not in (f"B-{want}", f"I-{want}"):
+                n += 1
+        prev = lab
+    return n
+
+
+def decode_spans(labels, tokens=None):
+    """BIO labels -> [(type, start, end_excl, text)]; illegal I- repaired as B-."""
+    spans, cur, start = [], None, 0
+    for i, lab in enumerate(list(labels) + ["O"]):
+        tag = lab if lab in SLOT_TO_ID else "O"
+        if tag.startswith("B-") or (tag.startswith("I-") and tag[2:] != cur):
+            if cur is not None:
+                words = (tokens or [])[start:i]
+                spans.append((cur, start, i, " ".join(words) if words else ""))
+            cur = tag[2:] if tag != "O" else None
+            start = i
+        elif tag == "O":
+            if cur is not None:
+                words = (tokens or [])[start:i]
+                spans.append((cur, start, i, " ".join(words) if words else ""))
+                cur = None
+    return spans
+
+
+def spans_from_ids(ids, tokens=None):
+    return decode_spans([ID_TO_SLOT[int(i)] for i in ids], tokens)
 
 
 def tokenize_and_align(records, tokenizer):

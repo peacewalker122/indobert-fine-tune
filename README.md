@@ -10,8 +10,10 @@ Training runs on **Google Colab / Kaggle** (GPU). Local machine is for code + te
 - Intents: `GET_TOP_CELLS`, `GET_CELL_DETAIL`, `GET_CELL_COUNT`, `UNKNOWN`
 - Slots: `O`, `B-LIMIT`, `B-CELL_ID`, `B-LOCATION`, `I-LOCATION`, `B-METRIC`, `I-METRIC`, `B-ORDER`, `I-ORDER`
 
-Splits in `data/` are committed and generated once (`uv run python -m src.split`) from
-`../nlu-gen/dataset.jsonl` — identical data on every machine.
+Splits in `data/` are generated (`uv run python -m src.split`) from
+`../nlu-gen/dataset.jsonl` — group-aware when records carry `group_id`
+(translations/paraphrases stay in one split), with `data/split_manifest.json`
+(seed + source sha256). Same-dataset runs reuse committed splits.
 
 ## Local
 
@@ -44,9 +46,28 @@ Artifact versions are never overwritten — export fails if the target dir exist
 
 ## Metrics
 
-- `intent_accuracy` — plain intent classification accuracy
-- slot token-level macro P/R/F1 — inflated by `O` dominance, treat as sanity signal
-- `exact_command_accuracy` — **primary metric**: intent correct AND every word-level slot prediction correct
+- `exact_command_accuracy` — **primary metric**: intent correct AND decoded entity
+  span sets equal (no missing/extra span). Reported overall, per language
+  (`id`/`en`/`mixed`), per intent, with 95% bootstrap CI.
+- intent macro F1 (one-vs-rest) + known-only macro + per-intent + confusion matrix.
+  Accuracy is secondary.
+- entity span micro/macro/per-type F1. Token-level slot F1 is debug-only.
+- UNKNOWN P/R/F1, OOD false-accept, known false-reject, coverage, selective
+  accuracy. Thresholds fit on validation only (`--fit-calibration`).
+- CPU: artifact size, load time, p50/p95/p99 batch-1 latency, throughput
+  (`uv run python -m src.bench --artifact ...`).
+
+```bash
+uv run python -m src.split
+uv run python -m src.train --seed 42  # repeat 43/44 for 3-seed benchmark
+uv run python -m src.evaluate --artifact artifacts/intent-slot-v1 --split validation \
+  --fit-calibration thresholds.json   # validation only
+uv run python -m src.evaluate --artifact artifacts/intent-slot-v1 --output report.json \
+  --thresholds thresholds.json        # frozen test run
+```
+
+Checkpoint selection uses validation `exact_command_accuracy`. Missing artifact
+(e.g. B0) reports `{"status": "unavailable"}` instead of failing silently.
 
 ## Known dataset limitations
 
