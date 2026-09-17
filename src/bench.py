@@ -7,10 +7,12 @@ from pathlib import Path
 import numpy as np
 import torch
 
+from .config import ARTIFACT_DIR, ARTIFACT_VERSION
+
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--artifact", default="artifacts/intent-slot-v1")
+    ap.add_argument("--artifact", default=str(ARTIFACT_DIR / ARTIFACT_VERSION))
     ap.add_argument("--data-dir", default="data")
     ap.add_argument("--split", default="test")
     ap.add_argument("--runs", type=int, default=1000)
