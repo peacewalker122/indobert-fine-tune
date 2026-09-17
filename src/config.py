@@ -1,7 +1,7 @@
 from pathlib import Path
 from dataclasses import dataclass
 
-MODEL_NAME = "indobenchmark/indobert-base-p1"
+MODEL_NAME = "google-bert/bert-base-multilingual-cased"
 MAX_LENGTH = 64
 SEED = 42
 
@@ -37,4 +37,4 @@ class TrainingConfig:
 
 
 ARTIFACT_DIR = Path("artifacts")
-ARTIFACT_VERSION = "intent-slot-v1"
+ARTIFACT_VERSION = "multilingual-intent-slot-v2"

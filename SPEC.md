@@ -1,9 +1,12 @@
-# SPEC — indobert-command-model (benchmark-aligned)
+# SPEC — multilingual-bert-command-model (benchmark-aligned)
 
 ## 1. Goal
 
-Fine-tune `indobenchmark/indobert-base-p1` for Indonesian cell-network commands:
-joint intent classification + slot filling. Single deployable artifact.
+Fine-tune `google-bert/bert-base-multilingual-cased` for Indonesian and English
+cell-network commands using a paired Indonesian/English corpus with aligned intent
+and BIO slot labels. The model is cased, and code-switched (`mixed`) input is part
+of the multilingual goal. This is joint intent classification + slot filling in a
+single deployable artifact.
 Benchmark companion: frozen B0 eval, reproducible B1, multilingual-data B2 —
 same heads, loss, splits, decoder, evaluator for every candidate.
 
@@ -91,7 +94,8 @@ unavailable at that level); true span-exact is computed in `evaluate.report`.
 
 ## 5. Artifact contract
 
-`artifacts/<version>/` self-contained (config + safetensors + tokenizer +
+The default release artifact is `artifacts/multilingual-intent-slot-v2/`.
+`artifacts/<version>/` is self-contained (config + safetensors + tokenizer +
 `labels.json` + `training_metadata.json` incl. seed, hyperparams, val metrics,
 split manifest digest, optional calibration/threshold refs via `extra`).
 Load per README. Missing artifact → `status: unavailable`.
@@ -119,11 +123,11 @@ uv run python -m src.evaluate --artifact artifacts/missing --output b0.json  # u
 Multi-seed: repeat train with `--seed 42/43/44 --version <v>-s{42,43,44}`;
 report mean/std + individual seeds. Test set untouched until thresholds frozen.
 
-## 8. Known limits
+## 8. Data and evaluation limits
 
-- Current `data/` has Indonesian-template records only: no `language`/`group_id`
-  yet → slices report `unlabeled`, splits fall back to seeded shuffle until
-  multilingual data lands.
-- UNKNOWN 39 fixed sentences → memorization, ~zero real-world recall.
-- Template phrasing → informal/abbrev/typo slices pending; calibration threshold
-  defaults to 0.0 (accept all) until validation OOD exists.
+- Paired Indonesian/English records should retain `language` and `group_id` so
+  translations and paraphrases stay in one split and language slices remain valid.
+- Template phrasing can underrepresent informal, abbreviated, typo-heavy, and
+  genuinely out-of-domain input; evaluate those cases separately.
+- UNKNOWN recall and false-accept rate are meaningful only with held-out OOD data;
+  calibration defaults to `0.0` (accept all) until validation OOD data is available.

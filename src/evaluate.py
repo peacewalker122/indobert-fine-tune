@@ -18,6 +18,7 @@ from .dataset import (
     tokenize_and_align,
     validate_record,
 )
+from .config import ARTIFACT_DIR, ARTIFACT_VERSION
 from .metrics import bootstrap_ci, entity_span_report, exact_flags, intent_report
 from .split import MANIFEST
 
@@ -203,7 +204,7 @@ def report(model_dir, data_dir="data", thresholds=None, output=None,
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--artifact", default="artifacts/intent-slot-v1")
+    ap.add_argument("--artifact", default=str(ARTIFACT_DIR / ARTIFACT_VERSION))
     ap.add_argument("--data-dir", default="data")
     ap.add_argument("--split", default="test")
     ap.add_argument("--thresholds", default=None)

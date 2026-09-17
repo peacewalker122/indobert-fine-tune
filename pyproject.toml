@@ -1,7 +1,7 @@
 [project]
-name = "indobert-command-model"
+name = "multilingual-bert-command-model"
 version = "0.1.0"
-description = "IndoBERT intent classification + slot filling for Indonesian cell-network commands"
+description = "Indonesian+English multilingual intent classification + slot filling"
 requires-python = ">=3.10"
 dependencies = [
     "torch==2.13.0",
