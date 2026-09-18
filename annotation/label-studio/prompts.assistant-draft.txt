@@ -1,0 +1,240 @@
+tampilkan 10 cell dengan latency tertinggi di Jakarta
+sebutkan 25 site berdasarkan dl throughput terendah di Bandung
+daftarkan 5 cell dengan cssr terbaik untuk wilayah Surabaya
+urutkan 15 cell menurut prb utilization terburuk di Medan
+saya ingin melihat 20 site dengan availability paling tinggi pada Bekasi
+tolong cari 50 cell dengan packet loss paling rendah di Semarang
+berikan 3 cell dengan rsrp tinggi dari lokasi Malang
+ambil 7 site dengan handover success rendah di Denpasar
+lihat 100 cell yang memiliki ul throughput tertinggi di Makassar
+mana 10 site dengan cell availability terbaik di Palembang
+tampilkan 15 cell berdasarkan average throughput paling rendah di Pontianak
+sebutkan 25 site dengan drop call terburuk pada Yogyakarta
+tolong tampilkan 5 cell dengan sinr paling tinggi di Tangerang
+carikan 20 site dengan jitter paling rendah untuk Cirebon
+daftar 50 cell dengan users tertinggi di Pekanbaru
+saya butuh 10 site dengan rsrq paling rendah di Jambi
+berikan 25 cell dengan downtime terburuk untuk lokasi Bogor
+tampilkan 7 site dengan mos terbaik di Manado
+sebutkan 3 cell dengan traffic paling tinggi pada Samarinda
+cari 100 site dengan payload paling rendah di Banjarmasin
+show 10 cells with latency ranked highest in Jakarta
+list 25 sites by dl throughput ranked lowest in Bandung
+display 5 cells with cssr ranked highest in Surabaya
+show 15 cells with prb utilization ranked lowest in Medan
+I want 20 sites with availability ranked highest in Bekasi
+find 50 cells with packet loss ranked lowest in Semarang
+give me 3 cells with rsrp ranked highest in Malang
+return 7 sites with handover success ranked lowest in Denpasar
+show 100 cells with ul throughput ranked highest in Makassar
+which 10 sites have the best cell availability in Palembang
+list 15 cells with average throughput ranked lowest in Pontianak
+show 25 sites with drop call ranked lowest in Yogyakarta
+display 5 cells with sinr ranked highest in Tangerang
+find 20 sites with jitter ranked lowest in Cirebon
+list 50 cells with users ranked highest in Pekanbaru
+show 10 sites with rsrq ranked lowest in Jambi
+return 25 cells with downtime ranked lowest in Bogor
+show 7 sites with mos ranked highest in Manado
+list 3 cells with traffic ranked highest in Samarinda
+find 100 sites with payload ranked lowest in Banjarmasin
+please tampilkan 10 cell dengan latency tertinggi di Jakarta
+show 25 site dengan dl throughput terendah di Bandung
+tolong list 5 cell dengan cssr terbaik di Surabaya
+display 15 cell dengan prb utilization terendah di Medan
+saya mau 20 sites with availability paling tinggi di Bekasi
+find 50 cell dengan packet loss paling rendah di Semarang
+tolong give 3 cell dengan rsrp tertinggi di Malang
+return 7 site dengan handover success terendah di Denpasar
+show 100 cell yang punya ul throughput tertinggi di Makassar
+which 10 site dengan cell availability terbaik di Palembang
+list 15 cell dengan average throughput paling rendah di Pontianak
+tolong show 25 site dengan drop call terburuk di Yogyakarta
+display 5 cell dengan sinr paling tinggi di Tangerang
+cari 20 sites with jitter terendah untuk Cirebon
+I need 50 cell dengan users tertinggi di Pekanbaru
+show 10 site dengan rsrq paling rendah di Jambi
+tolong return 25 cell with downtime terburuk di Bogor
+list 7 site dengan mos terbaik di Manado
+please tampilkan 3 cell dengan traffic tertinggi di Samarinda
+find 100 site dengan payload paling rendah di Banjarmasin
+detail cell JKT0536
+tampilkan detail JKT2604 di Jakarta
+berikan informasi untuk cell BDG0846 di Bandung
+berapa latency untuk cell BDO0652 di Bandung
+jelaskan prb utilization cell BJB0229 di Banjarbaru
+cek cssr pada cell BJM0516 di Banjarmasin
+lihat dl throughput untuk cell BPN0450 di Balikpapan
+saya ingin detail cell MDN0327 di Medan
+tampilkan rsrp cell MKS0164 di Makassar
+cek status cell MTP1133 di Martapura
+apa informasi site PLM0266 di Palembang
+jelaskan cell SBY0541 dengan availability di Surabaya
+beri detail SMR0223 di Samarinda
+tampilkan latency cell BDG1265
+cek cell JKT3665 dengan metric sinr
+saya perlu detail BJB0513
+bagaimana kondisi cell BJM0844 di Banjarmasin
+lihat cell BPN1270 dengan ul throughput di Balikpapan
+tampilkan detail MDN0596 pada Medan
+cek drop call untuk cell SBY0752 di Surabaya
+show details for cell JKT4106
+display JKT6586 in Jakarta
+give information about cell BDG1288 in Bandung
+what is the latency for cell BDO0815 in Bandung
+explain the prb utilization for cell BJB0844 in Banjarbaru
+check cssr for cell BJM0844 in Banjarmasin
+show dl throughput for cell BPN1270 in Balikpapan
+I need details for cell MDN0780 in Medan
+display rsrp for cell MKS0249 in Makassar
+what is the status of cell MTP1414 in Martapura
+show site PLM1257 information in Palembang
+give cell SBY0752 availability in Surabaya
+show details for SMR0880 in Samarinda
+what is the latency of cell BDG2778
+check cell JKT7115 with sinr
+I need details for BJB0987
+how is cell BJM1386 in Banjarmasin
+show cell BPN2588 with ul throughput in Balikpapan
+display details for MDN2225 in Medan
+check drop call for cell SBY1261 in Surabaya
+show detail cell JKT7198
+tampilkan JKT7919 di Jakarta
+give info cell BDG1332 di Bandung
+berapa latency cell BDO1396 di Bandung
+jelaskan prb utilization untuk cell BJB1207 di Banjarbaru
+check cssr cell BJM1438 di Banjarmasin
+show dl throughput cell BPN2886 di Balikpapan
+saya mau detail cell MDN2236 di Medan
+display rsrp cell MKS0318 di Makassar
+cek status cell MTP1484 di Martapura
+show info site PLM1257 di Palembang
+tampilkan availability cell SBY1669 di Surabaya
+please detail SMR0995 di Samarinda
+berapa latency untuk cell BDG3225
+check cell JKT8103 dengan sinr
+tolong detail BJB2280
+how is cell BJM1991 di Banjarmasin
+show cell BPN2947 with ul throughput di Balikpapan
+tampilkan detail MDN2356 di Medan
+cek drop call cell SBY3026 di Surabaya
+berapa jumlah cell di Jakarta
+hitung site di Bandung
+ada berapa cell pada Surabaya
+berapa cell dengan latency di Medan
+jumlah site dengan cssr di Bekasi
+berapa banyak cell di Semarang
+hitung jumlah cell untuk Malang
+berapa site yang tersedia di Denpasar
+jumlah cell dengan prb utilization di Makassar
+ada berapa cell di Palembang
+berapa banyak site dengan dl throughput di Pontianak
+tolong hitung cell di Yogyakarta
+berapa jumlah site dengan availability di Tangerang
+hitung cell pada Cirebon
+berapa site di Pekanbaru
+ada berapa cell dengan rsrp di Jambi
+jumlah cell di Bogor
+bisa hitung site dengan traffic di Manado
+berapa cell di Samarinda
+tolong beri jumlah site di Banjarmasin
+how many cells are in Jakarta
+count sites in Bandung
+how many cells are in Surabaya
+how many cells have latency in Medan
+what is the site count for Bekasi
+how many cells are in Semarang
+count the cells in Malang
+how many sites are available in Denpasar
+how many cells have prb utilization in Makassar
+how many cells are in Palembang
+what is the number of sites with dl throughput in Pontianak
+please count the cells in Yogyakarta
+how many sites have availability in Tangerang
+count cells in Cirebon
+how many sites are in Pekanbaru
+how many cells have rsrp in Jambi
+what is the cell count for Bogor
+can you count sites with traffic in Manado
+how many cells are in Samarinda
+give me the site count for Banjarmasin
+berapa banyak cells di Jakarta
+count site di Bandung
+how many cell ada di Surabaya
+berapa cells dengan latency di Medan
+what is jumlah site di Bekasi
+ada berapa cells di Semarang
+please hitung cell di Malang
+how many sites tersedia di Denpasar
+berapa cell dengan prb utilization di Makassar
+count jumlah cell di Palembang
+what is jumlah site dengan dl throughput di Pontianak
+tolong count cell di Yogyakarta
+berapa banyak site dengan availability di Tangerang
+count cells pada Cirebon
+how many site ada di Pekanbaru
+berapa cells dengan rsrp di Jambi
+what is jumlah cell di Bogor
+bisa count site dengan traffic di Manado
+berapa banyak cell di Samarinda
+please beri site count di Banjarmasin
+ceritakan lelucon tentang hujan
+apa resep nasi goreng sederhana
+jelaskan cara reset kata sandi akun saya
+siapa penemu telepon
+terjemahkan kalimat ini ke bahasa Inggris
+buatkan email cuti untuk saya
+berapa harga tiket pesawat ke Bali
+bagaimana cuaca hari ini di Jakarta
+hitung 17 dikali 8
+rekomendasikan film komedi
+apa arti kata throughput
+tulis puisi tentang laut
+bantu saya mengatur jadwal rapat
+cara mengganti wallpaper ponsel
+berikan fakta tentang planet Mars
+buat ringkasan artikel ini
+di mana restoran terdekat
+tolong perbaiki tata bahasa kalimat ini
+apa perbedaan kopi arabika dan robusta
+buatkan ucapan ulang tahun
+tell me a joke about rain
+what is an easy nasi goreng recipe
+explain how to reset my password
+who invented the telephone
+translate this sentence into Indonesian
+write a vacation email for me
+what is the price of a flight to Bali
+what is the weather in Jakarta today
+calculate 17 times 8
+recommend a comedy movie
+what does throughput mean
+write a poem about the sea
+help me schedule a meeting
+how do I change my phone wallpaper
+give me facts about Mars
+summarize this article
+where is the nearest restaurant
+please fix the grammar in this sentence
+what is the difference between arabica and robusta coffee
+write a birthday greeting
+buatkan joke tentang hujan
+what is resep nasi goreng yang mudah
+tolong explain cara reset password saya
+who menemukan telepon
+please translate kalimat ini ke English
+buatkan vacation email untuk saya
+berapa harga flight ke Bali
+what is weather di Jakarta today
+tolong calculate 17 kali 8
+recommend film komedi dong
+jelaskan what does throughput mean
+write puisi tentang laut
+bantu saya schedule meeting
+how do I ganti wallpaper ponsel
+kasih facts tentang planet Mars
+tolong summarize artikel ini
+where is restoran terdekat
+please fix grammar kalimat ini
+apa difference kopi arabika dan robusta
+buatkan birthday greeting
