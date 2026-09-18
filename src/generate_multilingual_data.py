@@ -9,7 +9,7 @@ import sys
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, TypedDict, cast
 
 from .config import INTENTS, SLOTS
 
@@ -65,6 +65,28 @@ EXPECTED_SLOTS = (
 )
 
 
+class Record(TypedDict):
+    tokens: list[str]
+    intent: str
+    slots: list[str]
+
+
+class InputRecord(Record, total=False):
+    id: str
+    language: str
+    group_id: str
+    source: str
+    text: str
+
+
+class GeneratedRecord(Record):
+    id: str
+    language: str
+    group_id: str
+    source: str
+    text: str
+
+
 class GenerationError(ValueError):
     """A source or rendered record cannot be handled safely."""
 
@@ -117,7 +139,7 @@ class EnglishBuilder:
     def error(self, message: str) -> GenerationError:
         return GenerationError(f"{self.split} index {self.index}: {message}")
 
-    def record(self, intent: str) -> dict[str, object]:
+    def record(self, intent: str) -> Record:
         if not self.tokens or len(self.tokens) != len(self.slots):
             raise self.error("English token/slot mismatch")
         return {
@@ -462,27 +484,27 @@ def _validate_record_shape(record: object, split: str, index: int) -> None:
         previous = slot
 
 
-def _read_jsonl(path: Path, split: str) -> list[dict[str, object]]:
+def _read_jsonl(path: Path, split: str) -> list[InputRecord]:
     try:
         contents = path.read_text(encoding="utf-8")
     except OSError as exc:
         raise GenerationError(f"{split}: cannot read {path}: {exc}") from exc
-    records: list[dict[str, object]] = []
+    records: list[InputRecord] = []
     for line_no, line in enumerate(contents.splitlines(), 1):
         if not line.strip():
             raise _error(split, line_no - 1, "blank JSONL line")
         try:
-            record = json.loads(line)
+            record: object = json.loads(line)
         except json.JSONDecodeError as exc:
             raise _error(split, line_no - 1, f"invalid JSON: {exc.msg}") from exc
         _validate_record_shape(record, split, line_no - 1)
-        records.append(record)
+        records.append(cast(InputRecord, record))
     if not records:
         raise GenerationError(f"{split}: JSONL file contains no records")
     return records
 
 
-def _select_id_source(records: list[dict[str, object]], split: str) -> list[dict[str, object]]:
+def _select_id_source(records: list[InputRecord], split: str) -> list[InputRecord]:
     metadata_presence = [set(record) - CORE_KEYS for record in records]
     if not any(metadata_presence):
         return records
@@ -496,7 +518,7 @@ def _select_id_source(records: list[dict[str, object]], split: str) -> list[dict
                     "or all generated metadata",
                 )
     for index, record in enumerate(records):
-        language = record["language"]
+        language = record.get("language")
         if language not in ("id", "en", "mixed"):
             raise _error(
                 split,
@@ -504,15 +526,15 @@ def _select_id_source(records: list[dict[str, object]], split: str) -> list[dict
                 f"generated language must be 'id', 'en', or 'mixed', got {language!r}",
             )
         for field in METADATA_KEYS:
-            if not isinstance(record[field], str):
+            if not isinstance(record.get(field), str):
                 raise _error(split, index, f"generated field {field!r} must be a string")
-    sources = [record for record in records if record["language"] == "id"]
+    sources = [record for record in records if record.get("language") == "id"]
     if not sources:
         raise GenerationError(f"{split}: bilingual data has no language=id source records")
     return sources
 
 
-def _source_record(record: dict[str, object], split: str, index: int) -> SourceRecord:
+def _source_record(record: Record, split: str, index: int) -> SourceRecord:
     return SourceRecord(
         split=split,
         index=index,
@@ -591,7 +613,7 @@ def _spans_by_kind(source: SourceRecord, spans: tuple[Span, ...]) -> dict[str, S
     return found
 
 
-def _render_top_cells(source: SourceRecord, spans: dict[str, Span]) -> dict[str, object]:
+def _render_top_cells(source: SourceRecord, spans: dict[str, Span]) -> Record:
     builder = EnglishBuilder(source.split, source.index)
     order = _normalize_order(spans["ORDER"].value)
     if order == "ascending":
@@ -611,7 +633,7 @@ def _render_top_cells(source: SourceRecord, spans: dict[str, Span]) -> dict[str,
     return builder.record(source.intent)
 
 
-def _render_cell_detail(source: SourceRecord, spans: dict[str, Span]) -> dict[str, object]:
+def _render_cell_detail(source: SourceRecord, spans: dict[str, Span]) -> Record:
     builder = EnglishBuilder(source.split, source.index)
     if "METRIC" in spans:
         builder.span(spans["METRIC"])
@@ -625,7 +647,7 @@ def _render_cell_detail(source: SourceRecord, spans: dict[str, Span]) -> dict[st
     return builder.record(source.intent)
 
 
-def _render_cell_count(source: SourceRecord, spans: dict[str, Span]) -> dict[str, object]:
+def _render_cell_count(source: SourceRecord, spans: dict[str, Span]) -> Record:
     builder = EnglishBuilder(source.split, source.index)
     builder.literal("how", "many", "cells")
     if "METRIC" in spans:
@@ -636,7 +658,7 @@ def _render_cell_count(source: SourceRecord, spans: dict[str, Span]) -> dict[str
     return builder.record(source.intent)
 
 
-def _render_unknown(source: SourceRecord) -> dict[str, object]:
+def _render_unknown(source: SourceRecord) -> Record:
     english_tokens = UNKNOWN_TRANSLATIONS.get(source.tokens)
     if english_tokens is None:
         raise _error(source.split, source.index, f"translation miss for UNKNOWN {source.tokens!r}")
@@ -645,7 +667,7 @@ def _render_unknown(source: SourceRecord) -> dict[str, object]:
     return builder.record(source.intent)
 
 
-def _render_mixed(record: dict[str, object], split: str, index: int) -> dict[str, object]:
+def _render_mixed(record: Record, split: str, index: int) -> GeneratedRecord:
     source = _source_record(record, split, index)
     if source.intent == "UNKNOWN":
         tokens = ["please", *source.tokens]
@@ -703,7 +725,7 @@ def _with_metadata(
     tokens: Iterable[str],
     slots: Iterable[str],
     source_name: str = SOURCE_NAME,
-) -> dict[str, object]:
+) -> GeneratedRecord:
     token_list = list(tokens)
     slot_list = list(slots)
     if len(token_list) != len(slot_list) or not token_list:
@@ -721,7 +743,7 @@ def _with_metadata(
 
 
 def _validate_generated(
-    record: dict[str, object],
+    record: GeneratedRecord,
     source: SourceRecord,
     language: str,
     group_id: str,
@@ -742,7 +764,7 @@ def _validate_generated(
         raise _error(source.split, source.index, "text does not match tokens")
 
 
-def _render_pair(record: dict[str, object], split: str, index: int) -> tuple[dict[str, object], dict[str, object]]:
+def _render_pair(record: Record, split: str, index: int) -> tuple[GeneratedRecord, GeneratedRecord]:
     source = _source_record(record, split, index)
     spans = _decode_spans(source)
     by_kind = _spans_by_kind(source, spans)
@@ -768,7 +790,7 @@ def _render_pair(record: dict[str, object], split: str, index: int) -> tuple[dic
     return id_record, en_record
 
 
-def _jsonl(records: Iterable[dict[str, object]]) -> str:
+def _jsonl(records: Iterable[GeneratedRecord]) -> str:
     return "".join(
         json.dumps(record, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n"
         for record in records
@@ -787,7 +809,7 @@ def generate(data_dir: Path, check: bool = False) -> dict[str, Counter[tuple[str
         path = data_dir / f"{split}.jsonl"
         records = _read_jsonl(path, split)
         sources = _select_id_source(records, split)
-        output: list[dict[str, object]] = []
+        output: list[GeneratedRecord] = []
         split_counts: Counter[tuple[str, str]] = Counter()
         for source_index, record in enumerate(sources):
             source = _source_record(record, split, source_index)
