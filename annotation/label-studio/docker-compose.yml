@@ -1,0 +1,12 @@
+services:
+  label-studio:
+    image: heartexlabs/label-studio:1.23.0
+    pull_policy: never
+    ports:
+      - "${LABEL_STUDIO_PORT:-8080}:8080"
+    volumes:
+      - label-studio-data:/label-studio/data
+    restart: unless-stopped
+
+volumes:
+  label-studio-data:

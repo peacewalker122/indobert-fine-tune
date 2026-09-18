@@ -63,6 +63,14 @@ uv run python -m src.export --model-dir output/checkpoint-XXXX               # r
 
 Artifact versions are never overwritten — export fails if the target dir exists.
 
+## Human challenge data
+
+Synthetic `mixed` examples are not a substitute for real operator language. Use the
+offline Label Studio workflow in [`annotation/label-studio/README.md`](annotation/label-studio/README.md)
+to author and export a separate `data/challenge/mixed_human.jsonl` holdout. The
+converter owns BIO labels, `id`, and `group_id`; annotators label only intent and
+highlighted spans.
+
 ## Metrics
 
 - `exact_command_accuracy` — **primary metric**: intent correct AND decoded entity

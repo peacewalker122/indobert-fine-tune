@@ -1,0 +1,17 @@
+<View>
+  <Header value="Choose one intent and label every slot span" />
+  <Text name="text" value="$text" granularity="word"/>
+  <Choices name="intent" toName="text" choice="single-radio">
+    <Choice value="GET_TOP_CELLS" />
+    <Choice value="GET_CELL_DETAIL" />
+    <Choice value="GET_CELL_COUNT" />
+    <Choice value="UNKNOWN" />
+  </Choices>
+  <Labels name="slot" toName="text">
+    <Label value="LIMIT" background="#F59E0B" />
+    <Label value="CELL_ID" background="#EF4444" />
+    <Label value="LOCATION" background="#10B981" />
+    <Label value="METRIC" background="#3B82F6" />
+    <Label value="ORDER" background="#8B5CF6" />
+  </Labels>
+</View>
