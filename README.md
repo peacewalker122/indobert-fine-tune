@@ -4,9 +4,11 @@ Fine-tuned `google-bert/bert-base-multilingual-cased` for Indonesian and English
 cell-network commands: a cased multilingual BERT encoder + intent head (4 intents)
 and slot head (9 BIO labels).
 
-The target corpus is a paired Indonesian/English corpus: each command meaning has
-aligned intent and BIO slot labels in both languages. Code-switched (`mixed`)
-input is part of the multilingual goal.
+The target corpus contains a paired Indonesian/English corpus plus one
+deterministic synthetic code-switched (`mixed`) record for each source command.
+Every record keeps aligned intent and BIO slot labels. The mixed renderer keeps
+the original Indonesian structure and switches command phrases at natural
+boundaries; it is generated augmentation, not a human-collected corpus.
 
 Training runs on **Google Colab / Kaggle** (GPU). Local machine is for code + tests only.
 
@@ -18,7 +20,17 @@ Training runs on **Google Colab / Kaggle** (GPU). Local machine is for code + te
 Splits in `data/` are generated (`uv run python -m src.split`) from
 `../nlu-gen/dataset.jsonl` — group-aware when records carry `group_id`
 (translations/paraphrases stay in one split), with `data/split_manifest.json`
-(seed + source sha256). Same-dataset runs reuse committed splits.
+(seed + source sha256). Same-dataset runs reuse committed splits. The
+multilingual generator then preserves each source split and emits three records
+per group (`id`, `en`, `mixed`): 24,000 train records, 3,000 validation
+records, and 3,000 test records.
+
+Regenerate or verify the committed JSONL with:
+
+```bash
+uv run python -m src.generate_multilingual_data
+uv run python -m src.generate_multilingual_data --check
+```
 
 ## Local
 
@@ -86,10 +98,13 @@ Checkpoint selection uses validation `exact_command_accuracy`. Missing artifact
 
 ## Dataset notes
 
-- Paired Indonesian/English records share the same four-intent and nine-slot
-  contract; language slices are reported as `id`, `en`, and `mixed`.
+- Indonesian/English pairs and their mixed companion share the same four-intent
+  and nine-slot contract; language slices are reported as `id`, `en`, and
+  `mixed`. All three records retain one `group_id` and one source split.
 - Template-generated examples are useful for repeatable evaluation but may
   underrepresent informal, abbreviated, typo-heavy, or genuinely out-of-domain input.
+  Treat `mixed` metrics as synthetic-regression results until a human-authored
+  code-switch challenge set exists.
 - UNKNOWN performance must be checked on held-out out-of-domain data, not only on
   the generated corpus.
 

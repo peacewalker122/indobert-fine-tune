@@ -1,4 +1,4 @@
-"""Generate deterministic Indonesian/English pairs for the command dataset."""
+"""Generate deterministic Indonesian/English pairs and synthetic code-switches."""
 
 from __future__ import annotations
 
@@ -19,6 +19,28 @@ CORE_KEYS = frozenset(("tokens", "intent", "slots"))
 METADATA_KEYS = frozenset(("id", "language", "group_id", "source", "text"))
 OUTPUT_KEYS = CORE_KEYS | METADATA_KEYS
 SOURCE_NAME = "synthetic-template"
+MIXED_SOURCE_NAME = "synthetic-code-switch"
+MIXED_PREFIX_REPLACEMENTS = (
+    (("saya", "mau", "lihat"), ("I", "want", "to", "lihat")),
+    (("saya", "mau", "jumlah"), ("I", "need", "jumlah")),
+    (("tolong", "tampilkan"), ("tolong", "show")),
+    (("mohon", "tampilkan"), ("please", "tampilkan")),
+    (("coba", "tampilkan"), ("coba", "show")),
+    (("berapa", "banyak"), ("how", "many")),
+    (("ada", "berapa"), ("ada", "how", "many")),
+    (("berapa", "jumlah"), ("what's", "jumlah")),
+    (("bagaimana", "status"), ("how's", "status")),
+    (("detail", "untuk"), ("details", "untuk")),
+    (("lihat",), ("check",)),
+    (("cek",), ("inspect",)),
+    (("tampilkan",), ("show",)),
+    (("tunjukkan",), ("display",)),
+    (("berikan",), ("give",)),
+    (("munculkan",), ("bring", "up")),
+    (("carikan",), ("find",)),
+    (("hitung",), ("count",)),
+    (("sebutkan",), ("list",)),
+)
 ORDER_DIRECTIONS = (
     ("ascending", ("rendah", "lowest", "buruk")),
     ("descending", ("tinggi", "highest", "baik")),
@@ -475,8 +497,12 @@ def _select_id_source(records: list[dict[str, object]], split: str) -> list[dict
                 )
     for index, record in enumerate(records):
         language = record["language"]
-        if language not in ("id", "en"):
-            raise _error(split, index, f"generated language must be 'id' or 'en', got {language!r}")
+        if language not in ("id", "en", "mixed"):
+            raise _error(
+                split,
+                index,
+                f"generated language must be 'id', 'en', or 'mixed', got {language!r}",
+            )
         for field in METADATA_KEYS:
             if not isinstance(record[field], str):
                 raise _error(split, index, f"generated field {field!r} must be a string")
@@ -619,6 +645,40 @@ def _render_unknown(source: SourceRecord) -> dict[str, object]:
     return builder.record(source.intent)
 
 
+def _render_mixed(record: dict[str, object], split: str, index: int) -> dict[str, object]:
+    source = _source_record(record, split, index)
+    if source.intent == "UNKNOWN":
+        tokens = ["please", *source.tokens]
+        slots = ["O", *source.slots]
+    else:
+        for prefix, replacement in MIXED_PREFIX_REPLACEMENTS:
+            width = len(prefix)
+            if source.tokens[:width] == prefix and set(source.slots[:width]) == {"O"}:
+                tokens = [*replacement, *source.tokens[width:]]
+                slots = [*("O" for _ in replacement), *source.slots[width:]]
+                break
+        else:
+            raise _error(split, index, f"mixed prefix miss for {source.tokens!r}")
+
+    group_id = _group_id(source)
+    mixed_record = _with_metadata(
+        source,
+        "mixed",
+        group_id,
+        tokens,
+        slots,
+        source_name=MIXED_SOURCE_NAME,
+    )
+    _validate_generated(
+        mixed_record,
+        source,
+        "mixed",
+        group_id,
+        source_name=MIXED_SOURCE_NAME,
+    )
+    return mixed_record
+
+
 def _canonical_source(source: SourceRecord) -> str:
     return json.dumps(
         {
@@ -642,6 +702,7 @@ def _with_metadata(
     group_id: str,
     tokens: Iterable[str],
     slots: Iterable[str],
+    source_name: str = SOURCE_NAME,
 ) -> dict[str, object]:
     token_list = list(tokens)
     slot_list = list(slots)
@@ -654,20 +715,24 @@ def _with_metadata(
         "id": f"{group_id}-{language}",
         "language": language,
         "group_id": group_id,
-        "source": SOURCE_NAME,
+        "source": source_name,
         "text": " ".join(token_list),
     }
 
 
 def _validate_generated(
-    record: dict[str, object], source: SourceRecord, language: str, group_id: str
+    record: dict[str, object],
+    source: SourceRecord,
+    language: str,
+    group_id: str,
+    source_name: str = SOURCE_NAME,
 ) -> None:
     _validate_record_shape(record, source.split, source.index)
     if set(record) != OUTPUT_KEYS:
         raise _error(source.split, source.index, f"{language} output fields are not canonical")
     if record["language"] != language:
         raise _error(source.split, source.index, f"wrong language metadata for {language}")
-    if record["source"] != SOURCE_NAME:
+    if record["source"] != source_name:
         raise _error(source.split, source.index, "wrong source metadata")
     if record["group_id"] != group_id:
         raise _error(source.split, source.index, "wrong group_id metadata")
@@ -737,7 +802,8 @@ def generate(data_dir: Path, check: bool = False) -> dict[str, Counter[tuple[str
                     f"group_id crosses or duplicates split {groups[group_id]!r}",
                 )
             groups[group_id] = split
-            for language, rendered in zip(("id", "en"), pair):
+            mixed = _render_mixed(record, split, source_index)
+            for language, rendered in (("id", pair[0]), ("en", pair[1]), ("mixed", mixed)):
                 record_id = rendered["id"]
                 if record_id in ids:
                     raise _error(split, source_index, f"duplicate ID also used by {ids[record_id]!r}")
@@ -786,9 +852,13 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     mode = "checked" if args.check else "generated"
     for split in SPLITS:
-        total = sum(counts[split].values())
-        languages = {language for language, _ in counts[split]}
-        print(f"{split}: {total // len(languages)} id + {total // len(languages)} en ({mode})")
+        language_counts = Counter()
+        for (language, _), count in counts[split].items():
+            language_counts[language] += count
+        summary = " + ".join(
+            f"{language_counts[language]} {language}" for language in ("id", "en", "mixed")
+        )
+        print(f"{split}: {summary} ({mode})")
     return 0
 
 

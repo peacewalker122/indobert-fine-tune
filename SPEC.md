@@ -41,6 +41,13 @@ Data prep
        without: seeded shuffle) → data/{train,validation,test}.jsonl + split_manifest.json
        (seed, source_sha256, counts, grouped flag)
 
+Multilingual rendering
+  → generate_multilingual_data
+    → _select_id_source (keep the Indonesian source record from each group)
+    → _render_pair + _render_mixed
+    → data/{train,validation,test}.jsonl with `id`, `en`, and `mixed` records
+       sharing one group_id and source split
+
 Training (run ×3 seeds for B1/B2)
   → train.main --seed S --version <v>-sS
     → dataset.load_split + tokenize_and_align (first-subword label, rest + specials → -100)
