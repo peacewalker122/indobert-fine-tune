@@ -18,7 +18,13 @@ from .dataset import (
     tokenize_and_align,
     validate_record,
 )
-from .config import ARTIFACT_DIR, ARTIFACT_VERSION
+from .config import (
+    ARTIFACT_DIR,
+    ARTIFACT_VERSION,
+    ID_TO_SLOT,
+    IGNORE_INDEX,
+    INTENT_TO_ID,
+)
 from .metrics import bootstrap_ci, entity_span_report, exact_flags, intent_report
 from .split import MANIFEST
 
