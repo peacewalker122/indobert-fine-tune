@@ -9,6 +9,7 @@ dependencies = [
     "datasets",
     "scikit-learn",
     "accelerate",
+    "optuna>=3.6",
 ]
 
 [tool.uv.sources]

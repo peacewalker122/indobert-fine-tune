@@ -7,11 +7,11 @@ from .config import IGNORE_INDEX, INTENTS, MODEL_NAME, SLOTS
 
 
 class IntentSlotModel(nn.Module):
-    def __init__(self, encoder=None):
+    def __init__(self, encoder=None, dropout: float = 0.1):
         super().__init__()
         self.encoder = encoder if encoder is not None else AutoModel.from_pretrained(MODEL_NAME)
         hidden = self.encoder.config.hidden_size
-        self.dropout = nn.Dropout(0.1)
+        self.dropout = nn.Dropout(dropout)
         self.intent_head = nn.Linear(hidden, len(INTENTS))
         self.slot_head = nn.Linear(hidden, len(SLOTS))
 
