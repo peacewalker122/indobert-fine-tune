@@ -1,0 +1,38 @@
+# multilingual-bert-command-model example config.
+# Maps 1:1 to src/config.py constants + the argparse CLIs (train / evaluate /
+# bench / sweep / split / generate_multilingual_data). Pass values as flags,
+# e.g.: uv run python -m src.train --epochs 5 --seed 42 --version multilingual-intent-slot-v2
+model:
+  # Public cased base encoder; keep in sync with src/config.py MODEL_NAME.
+  name: "google-bert/bert-base-multilingual-cased"
+  max_length: 64
+  seed: 42
+
+training:
+  learning_rate: 0.00002
+  epochs: 5
+  batch_size: 16
+  max_length: 64
+  seed: 42
+
+labels:
+  intents: ["GET_TOP_CELLS", "GET_CELL_DETAIL", "GET_CELL_COUNT", "UNKNOWN"]
+  slots: ["O", "B-LIMIT", "B-CELL_ID", "B-LOCATION", "I-LOCATION",
+          "B-METRIC", "I-METRIC", "B-ORDER", "I-ORDER"]
+
+paths:
+  data_dir: "data"
+  output_dir: "output"
+  artifact_dir: "artifacts"
+  version: "multilingual-intent-slot-v2"
+
+evaluation:
+  split: "test"
+  min_coverage: 0.95
+  thresholds: ""
+  output: ""
+
+bench:
+  runs: 1000
+  warmup: 100
+  threads: 1
