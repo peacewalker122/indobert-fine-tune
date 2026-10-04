@@ -1,0 +1,16 @@
+{
+  "policy_version": "2026-09-21",
+  "seed": 42,
+  "min_coverage": 0.95,
+  "metrics": {
+    "intent_macro_f1": 0.90,
+    "entity_micro_f1": 0.90,
+    "entity_macro_f1": 0.85,
+    "exact_command_accuracy": 0.80,
+    "coverage": 0.95
+  },
+  "ood": {
+    "required": false,
+    "unknown_f1": 0.80
+  }
+}

@@ -18,6 +18,8 @@ def main():
     ap.add_argument("--output-dir", type=Path, default=Path("output"))
     ap.add_argument("--version", default=ARTIFACT_VERSION)
     ap.add_argument("--seed", type=int, default=SEED)
+    ap.add_argument("--model-name", default=MODEL_NAME)
+    ap.add_argument("--model-revision", required=False)
     args = ap.parse_args()
 
     cfg = TrainingConfig()
@@ -29,7 +31,7 @@ def main():
 
     from transformers import AutoModel, AutoTokenizer
 
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name, revision=args.model_revision)
 
     train_ds = load_split("data", "train", tokenizer)
     val_ds = load_split("data", "validation", tokenizer)
@@ -37,7 +39,9 @@ def main():
         train_ds = train_ds.select(range(args.max_samples))
         val_ds = val_ds.select(range(min(args.max_samples, len(val_ds))))
 
-    model = IntentSlotModel(AutoModel.from_pretrained(MODEL_NAME))
+    model = IntentSlotModel(
+        AutoModel.from_pretrained(args.model_name, revision=args.model_revision)
+    )
 
     training_args = TrainingArguments(
         output_dir=str(args.output_dir),
@@ -81,7 +85,15 @@ def main():
     man = Path("data/split_manifest.json")
     if man.exists():
         hyperparams["split_manifest"] = json.loads(man.read_text())
-    save_artifact(trainer.model, tokenizer, args.version, metrics=clean_metrics, hyperparams=hyperparams)
+    save_artifact(
+        trainer.model,
+        tokenizer,
+        args.version,
+        metrics=clean_metrics,
+        hyperparams=hyperparams,
+        base_model=args.model_name,
+        base_revision=args.model_revision,
+    )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,10 @@
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 HF_HOME=/work/cache CUDA_VISIBLE_DEVICES=""
+WORKDIR /app
+RUN pip install --no-cache-dir uv
+COPY pyproject.toml ./
+RUN uv sync --no-dev --no-install-project
+COPY src ./src
+COPY ci ./ci
+ENTRYPOINT ["uv", "run", "--no-sync", "python", "-m", "src.orchestrate"]
