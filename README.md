@@ -10,7 +10,10 @@ Every record keeps aligned intent and BIO slot labels. The mixed renderer keeps
 the original Indonesian structure and switches command phrases at natural
 boundaries; it is generated augmentation, not a human-collected corpus.
 
-Training runs on **Google Colab / Kaggle** (GPU). Local machine is for code + tests only.
+Direct experiments can run on Colab/Kaggle; the SmartCare gateway trainer image is
+CPU-only and runs the same `src.train` implementation with frozen dataset and
+policy inputs. Training artifacts are not quality claims until evaluated on the
+frozen test set and accepted by the policy gate.
 
 ## Labels
 
@@ -62,6 +65,43 @@ uv run python -m src.export --model-dir output/checkpoint-XXXX               # r
 ```
 
 Artifact versions are never overwritten — export fails if the target dir exists.
+
+## SmartCare gateway (no MLflow)
+
+The orchestrator consumes an immutable RunSpec and has separate stages:
+
+```bash
+uv run python -m src.orchestrate --mode prepare --run-spec-json /work/run-spec.json \
+  --attempt 1 --work-dir /work
+uv run python -m src.orchestrate --mode publish --run-spec-json /work/run-spec.json \
+  --attempt 1 --work-dir /work
+uv run python -m src.orchestrate --mode recover --run-spec-json /work/run-spec.json \
+  --attempt 1 --work-dir /work
+```
+
+`prepare` downloads and verifies pinned MinIO dataset files and exact metadata
+bytes, trains, fits calibration on validation, evaluates the test split once,
+and stores checksummed evidence. It does not publish models. `publish` verifies
+that durable evidence and reruns the gate against the frozen policy before
+writing model objects and committing `metadata.json` last. `recover` validates an
+existing committed release or resumes publication from the staged attempt
+without training or reevaluating. A smoke RunSpec (`max_samples`) is rejected as
+non-promotable. The container runs as UID 10001 in `/work`; publisher credentials
+must only be supplied to publish/recover stages.
+
+To create an immutable dataset release, provide provenance JSON (for example,
+source revision, annotation process, and generation code revision) and use the
+explicit publisher:
+
+```bash
+uv run python -m src.publish_dataset --data-dir /work/data --name telecom-intent \
+  --version d1 --provenance-json provenance.json
+```
+
+The publisher validates canonical BIO records, nonempty train/validation/test
+splits, unique record IDs, and group isolation, checks uploaded file hashes, and
+writes pinned metadata last. Dataset quality and model quality still require
+independent review; fixture tests only verify lifecycle behavior.
 
 ## Human challenge data
 

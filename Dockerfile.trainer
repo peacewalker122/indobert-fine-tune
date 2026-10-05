@@ -1,10 +1,13 @@
 FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 HF_HOME=/work/cache CUDA_VISIBLE_DEVICES=""
+ENV PATH=/app/.venv/bin:$PATH
 WORKDIR /app
-RUN pip install --no-cache-dir uv
-COPY pyproject.toml ./
-RUN uv sync --no-dev --no-install-project
+RUN pip install --no-cache-dir uv && useradd --uid 10001 --create-home --home-dir /home/trainer --shell /usr/sbin/nologin trainer \
+    && mkdir -p /work/cache /work/output /work/artifacts && chown -R 10001:10001 /work
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev --no-install-project
 COPY src ./src
 COPY ci ./ci
-ENTRYPOINT ["uv", "run", "--no-sync", "python", "-m", "src.orchestrate"]
+USER 10001:10001
+ENTRYPOINT ["/app/.venv/bin/python", "-m", "src.orchestrate"]
